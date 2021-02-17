@@ -8,7 +8,7 @@ const Header = () => (
       <div className='header-center'>
 
         <div className='header-name'> 
-          <Link to='http://localhost:8000' >Matilda Björk</Link>
+          <Link to='src/pages/index.js'>Matilda Björk</Link>
         </div>
 
         <div className='header-nav'>
