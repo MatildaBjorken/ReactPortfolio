@@ -8,7 +8,7 @@ const Header = () => (
       <div className='header-center'>
 
         <div className='header-name'> 
-          <Link to='src/pages/index.js'>Matilda Björk</Link>
+          <Link to='https://romantic-keller-760dd7.netlify.app'>Matilda Björk</Link>
         </div>
 
         <div className='header-nav'>
