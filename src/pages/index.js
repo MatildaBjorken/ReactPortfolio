@@ -61,6 +61,12 @@ const IndexPage = () => (
       <Link to="/plantbud" className='img-link'>PlantBud</Link>
       </div>
 
+      <div className='header-nav-small'>
+          <nav>
+          <Link to='/about'>About/Contact</Link>
+          </nav>
+        </div>
+
     </div>
   
   </div>

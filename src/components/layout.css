@@ -164,6 +164,10 @@ header a {
     grid-row: 1 / 2;
 }
 
+.header-nav-small{
+    display: none;
+}
+
 .about-me{
     grid-column: 1/2;
     grid-row: 1 / 2;
