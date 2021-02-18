@@ -18,7 +18,7 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>Creative expression is something that is really important to me and I really like to experiment with different styles and technologies</p>
+                <p>Working with creativity really is something that motivates me. I really like to experiment with different styles and technologies and here is one of many examples!</p>
             </div>
 
             <div>
@@ -50,7 +50,7 @@ const PageOne = () => (
 
             <div className='next'>
             <nav>
-            <Link to='/internago'>Next</Link>
+            <Link to='/news'>Next</Link>
             </nav>
             </div>
 

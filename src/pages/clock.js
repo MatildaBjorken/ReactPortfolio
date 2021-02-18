@@ -9,8 +9,6 @@ import Tic from '../images/clock/tic.png'
 import Mobile from '../images/clock/mobile.png'
 
 
-
-
 const PageOne = () => (
     <div className='illustrations'>
         <Header/>
@@ -19,7 +17,7 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>This was my first real coding project! I focused a lot on the logic in Javascript and to make the result more meaningful and visible pleasing for me, I integrated this neumorphism style</p>
+                <p>This was my first real coding project! This is a pomerado clock that helps you work more efficiently by keeping track of worktime and breaktime. I focused a lot on the logic in Javascript and to make the result more meaningful and visible pleasing for me, I integrated this neumorphism style</p>
             </div>
 
             <div>
@@ -34,8 +32,12 @@ const PageOne = () => (
             </div>
         </div>
 
+        <div className='link-git'>
+            <a href="https://matildabjorken.github.io/clock/ ">link to the current website</a>
+        </div>
+
         <div className='illustrations-images '>
-            <img className='' src={Press}/>
+            <img className='' src={Press} />
             <img className='' src={Tic}/>
         </div>
 
@@ -53,7 +55,7 @@ const PageOne = () => (
 
             <div className='next'>
             <nav>
-            <Link to='/illustration'>Next</Link>
+            <Link to='/internago'>Next</Link>
             </nav>
             </div>
 

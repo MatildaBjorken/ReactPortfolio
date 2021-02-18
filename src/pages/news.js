@@ -21,7 +21,7 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>Working with both the frontend and the backend where I created my own REST API that I used to connect the frontend and the backend. I created a website where users dynamically can add, edit and delete posts!</p>
+                <p>I worked with both the frontend and the backend where I created my own REST API that I used to connect the frontend and the backend. For the frontend, I created this website where users dynamically can add, edit and delete posts!</p>
             </div>
 
             <div>
@@ -34,6 +34,12 @@ const PageOne = () => (
                     Datagrip
                 </p>
             </div>
+        </div>
+
+        <div className='link-git'>
+            <a href="https://github.com/MatildaBjorken/finalFrontend">link to the source code (frontend)</a>
+            <br></br>
+            <a href="https://github.com/MatildaBjorken/CMSbackend">link to the source code (backend)</a>
         </div>
 
         <div className='internago'>
@@ -52,18 +58,18 @@ const PageOne = () => (
        
         <div className='header-center'>
 
-<div className='last-about'> 
-<Link to='/news' >About/Contact</Link>
-</div>
+        <div className='last-about'> 
+            <Link to='/news' >About/Contact</Link>
+        </div>
 
-<div className='next'>
-<nav>
-<Link to='/project'>Next</Link>
-</nav>
-</div>
+        <div className='next'>
+            <nav>
+                <Link to='/plantbud'>Next</Link>
+            </nav>
+        </div>
 
-</div>
     </div>
+        </div>
 )
 
 export default PageOne

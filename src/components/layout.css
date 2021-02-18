@@ -190,10 +190,15 @@ header a {
 
 .about-mail{
 filter: blur(1px);
+font-size: .9rem;
 }
 
 .about-back{
     font-size: 1.5rem;
+}
+
+.link-git{
+    margin-bottom: 3em;
 }
 
 /* media queries */
@@ -293,6 +298,10 @@ filter: blur(1px);
         font-size: .9rem; 
     }
 
+    .link-git{
+        font-size: .9rem; 
+    }
+
 
 
     .header-nav-small{
@@ -343,6 +352,7 @@ filter: blur(1px);
 
 .illustrations-last img{
     width: 50%;
+    margin-bottom: 3em; 
 }
 
 @media only screen and (max-width: 892px){

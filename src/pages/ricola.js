@@ -14,7 +14,7 @@ const PageOne = () => (
             <div >
                 <h3>Coming Soon..</h3>
                 <br></br>
-                <p>This is a client brief that I am currently working on! I am making something interactive that is connected to sustainability </p>
+                <p>This is a client brief that I am currently working on! I am creating something interactive that is connected to sustainability with the purpose of inspiring other companies.</p>
                 
             </div>
 
@@ -29,7 +29,7 @@ const PageOne = () => (
 
             <div className='next'>
             <nav>
-            <Link to='/project'>Next</Link>
+            <Link to='/mini'>Next</Link>
             </nav>
             </div>
 

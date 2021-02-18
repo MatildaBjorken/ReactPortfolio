@@ -76,7 +76,7 @@ const SecondPage = () => (
           <br></br>	 <br></br>
           Attention to Detail
           <br></br>	 <br></br>
-          Creative thinging
+          Creative thinking
           <br></br>	 <br></br>
           Teamwork and Collaboration skills
           <br></br>	 <br></br>
@@ -124,12 +124,12 @@ const SecondPage = () => (
             <br></br>
             <a className='about-mail' href="mailto:matilda.bjork@hyperisland.se">matilda.bjork@hyperisland.se</a> 
             <br></br>
-            <a className='about-mail' href="https://github.com/MatildaBjorken">my github!</a>   
+            <a className='about-mail' href="https://github.com/MatildaBjorken">go to my github!</a>   
           </p>
           
       </div>
         <div className='about-link'>
-        <Link className='about-back' to='http://localhost:8000'> Go Back :-)</Link>
+        <Link className='about-back' to='https://romantic-keller-760dd7.netlify.app'> Go Back :-)</Link>
         </div>
   </div>
 )

@@ -25,9 +25,9 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>Re-design, re-structure and re-build of Internagos existing website focusing on making the company feel more approachable to their visitors.
-
+                <p>Re-design, re-structure and re-build of Internagos existing website focusing on making the company feel more approachable to their visitors. 
                 </p>
+                
             </div>
 
             <div>
@@ -45,6 +45,9 @@ const PageOne = () => (
                     </p>
             </div>
         </div>
+                <div className='link-git'>
+                <a href="https://inspiring-heyrovsky-bd5ba4.netlify.app/ ">link to the current website</a>
+                </div>
 
         <div className='internago'>
             <img className='' src={Internago}/>
@@ -72,10 +75,6 @@ const PageOne = () => (
             <img  src={Mobile}/>
         </div>
 
-        <div className='internago-last' >
-        <a href="https://inspiring-heyrovsky-bd5ba4.netlify.app/ ">link to the current website</a>
-        </div>
-
         <div className='header-center'>
 
             <div className='last-about'> 
@@ -84,7 +83,7 @@ const PageOne = () => (
 
             <div className='next'>
             <nav>
-            <Link to='/plantbud'>Next</Link>
+            <Link to='/project'>Next</Link>
             </nav>
             </div>
 

@@ -20,47 +20,62 @@ const IndexPage = () => (
     <Header/>
     <div className='img-grid'>
 
-      <div className='img-cloud img-top'>
-      <img src={Clouds} alt='pomerado clock'  />  
-      <Link to="/clock" className='img-link'>Tic Tac</Link>
-      </div>
+      <Link to="/clock" >
+        <div className='img-cloud img-top'>
+          <img src={Clouds}  alt='pomerado clock'/>  
+          <Link to="/clock" className='img-link'>TicTac</Link>
+        </div>
+      </Link>
 
-      <div className='img-api img-top'>
-      <img  src={Cow}  alt=''/>
-      <Link to="/illustration" className='img-link'>Illustrations</Link>
-      </div>
+      <Link to="/internago">
+        <div className='img-internago img-top'>
+        <img  src={Internago}  alt=''/>
+        <Link to="/internago" className='img-link'>Internago</Link>
+        </div>
+      </Link>
 
-      <div className='img-news img-top'>
-      <img  src={News}  alt=''/>
-      <Link to="/news" className='img-link'>NewsAPI</Link>
-      </div>
+      <Link to="/project">
+        <div className='img-cool img-top'>
+          <img  src={Mrcool}  alt='illustration'/>
+          <Link to="/project" className='img-link'>Illustrations</Link>
+        </div>
+      </Link>
 
-      <div className='img-magic img-top'>
-      <img  src={Magic}  alt=''/>
-      <Link to="/mini" className='img-link'>MiniProjects</Link>
-      </div>
-      
-      <div className='img-cool img-top'>
-      <img  src={Handen}  alt=''/>
-      <Link to="/ricola" className='img-link'>Ricola</Link>
-      </div>
+      <Link to="/news">
+        <div className='img-news img-top'>
+          <img  src={News}  alt=''/>
+          <Link to="/news" className='img-link'>NewsAPI</Link>
+        </div>
+      </Link>
 
-      <div className='img-cool img-top'>
-      <img  src={Mrcool}  alt='illustration'/>
-      <Link to="/project" className='img-link'>Illustrations</Link>
-      </div>
+      <Link to="/plantbud">
+        <div className='img-plant img-top '>
+          <img  src={PlantBud}  alt='' />
+          <Link to="/plantbud" className='img-link'>PlantBud</Link>
+        </div>
+      </Link>
 
-      <div className='img-internago img-top'>
-      <img  src={Internago}  alt=''/>
-      <Link to="/internago" className='img-link'>Internago</Link>
-      </div>
-      
-     
-      <div className='img-plant img-top img-last'>
-      <img  src={PlantBud}  alt=''/>
-      <Link to="/plantbud" className='img-link'>PlantBud</Link>
-      </div>
+      <Link to="/ricola" >
+        <div className='img-cool img-top'>
+          <img  src={Handen}  alt=''/>
+          <Link to="/ricola" className='img-link'>Ricola</Link>
+        </div>
+      </Link>
 
+      <Link to="/mini">
+        <div className='img-magic img-top'>
+          <img  src={Magic}  alt=''/>
+          <Link to="/mini" className='img-link'>MiniProjects</Link>
+        </div>
+      </Link>
+
+      <Link to="/illustration" >
+      <div className='img-api img-top img-last'>
+        <img  src={Cow}  alt=''/>
+        <Link to="/illustration" className='img-link'>Paintings</Link>
+      </div>
+      </Link>
+ 
       <div className='header-nav-small'>
           <nav>
           <Link to='/about'>About/Contact</Link>
