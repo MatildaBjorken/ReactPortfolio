@@ -21,68 +21,69 @@ const IndexPage = () => (
     <div className='img-grid'>
 
       <Link to="/clock" >
-        <div className='img-cloud img-top'>
+        <div className='img-cloud img-top '>
           <img src={Clouds}  alt='pomerado clock'/>  
           <Link to="/clock" className='img-link'>TicTac</Link>
         </div>
       </Link>
 
       <Link to="/internago">
-        <div className='img-internago img-top'>
+        <div className='img-internago img-top img-small'>
         <img  src={Internago}  alt=''/>
         <Link to="/internago" className='img-link'>Internago</Link>
         </div>
       </Link>
 
       <Link to="/project">
-        <div className='img-cool img-top'>
+        <div className='img-cool img-top img-small'>
           <img  src={Mrcool}  alt='illustration'/>
           <Link to="/project" className='img-link'>Illustrations</Link>
         </div>
       </Link>
 
       <Link to="/news">
-        <div className='img-news img-top'>
+        <div className='img-news img-top img-small'>
           <img  src={News}  alt=''/>
           <Link to="/news" className='img-link'>NewsAPI</Link>
         </div>
       </Link>
 
       <Link to="/plantbud">
-        <div className='img-plant img-top '>
+        <div className='img-plant img-top img-small'>
           <img  src={PlantBud}  alt='' />
           <Link to="/plantbud" className='img-link'>PlantBud</Link>
         </div>
       </Link>
 
       <Link to="/ricola" >
-        <div className='img-cool img-top'>
+        <div className='img-cool img-top img-small'>
           <img  src={Handen}  alt=''/>
           <Link to="/ricola" className='img-link'>Ricola</Link>
         </div>
       </Link>
 
       <Link to="/mini">
-        <div className='img-magic img-top'>
+        <div className='img-magic img-top img-small'>
           <img  src={Magic}  alt=''/>
           <Link to="/mini" className='img-link'>MiniProjects</Link>
         </div>
       </Link>
 
       <Link to="/illustration" >
-      <div className='img-api img-top img-last'>
+      <div className='img-api img-top img-last img-small'>
         <img  src={Cow}  alt=''/>
         <Link to="/illustration" className='img-link'>Paintings</Link>
       </div>
       </Link>
  
-      <div className='header-nav-small'>
+     
+
+    </div>
+    <div className='header-nav-small'>
           <nav>
           <Link to='/about'>About/Contact</Link>
           </nav>
         </div>
-
-    </div>
   
   </div>
 )
