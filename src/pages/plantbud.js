@@ -18,8 +18,6 @@ const PageOne = () => (
                 <h3>Project Desctiption</h3>
                 <br></br>
                 <p>This project was a 48 hour sprint where I interpreted one of my classmates ’dream company’ and visualised it with code and graphic design</p>
-                <br></br>
-                <a href="https://matildabjorken.github.io/plantBud/">link to the current website</a>
             </div>
 
             <div>
@@ -32,6 +30,10 @@ const PageOne = () => (
                     JavaScript
                 </p>
             </div>
+        </div>
+
+        <div className='link-git'>
+            <a href="https://matildabjorken.github.io/plantBud/">link to the current website</a>
         </div>
 
         <div className='internago'>

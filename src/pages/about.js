@@ -122,7 +122,9 @@ const SecondPage = () => (
             <br></br>
             +46 70 982 98 30
             <br></br>
+            <br></br>
             <a className='about-mail' href="mailto:matilda.bjork@hyperisland.se">matilda.bjork@hyperisland.se</a> 
+            <br></br>
             <br></br>
             <a className='about-mail' href="https://github.com/MatildaBjorken">go to my github!</a>   
           </p>

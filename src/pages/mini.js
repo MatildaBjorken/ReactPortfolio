@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 import Header from '../components/header'
-import Rick from '../images/mini/insects.png'
+import Rick from '../images/mini/insect.png'
 import Habit from '../images/mini/colorgame.png'
 import Magic from '../images/mini/magic.png'
 
@@ -40,8 +40,10 @@ const PageOne = () => (
 
         <div className='link-git'>
             <a href="https://matildabjorken.github.io/magic8/">link to the magic 8 ball</a>
-            <br></br>
+            <br></br> <br></br>
             <a href="https://matildabjorken.github.io/colorGame/">link to the color game</a>
+            <br></br> <br></br>
+            <a href="https://matildabjorken.github.io/insects/">link to the insect site</a>
         </div>
 
         <div className='illustrations-images '>
