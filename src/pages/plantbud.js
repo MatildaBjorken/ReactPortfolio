@@ -17,7 +17,7 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>This project was a 36 hour sprint where I interpreted one of my classmates ’dream companies’ and visualised it with code and graphic design.</p>
+                <p>This project was a 36 hour sprint where I interpreted one of my classmate's ’dream companies’ and visualised it with code and graphic design.</p>
             </div>
 
             <div>
