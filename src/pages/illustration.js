@@ -44,9 +44,9 @@ const PageOne = () => (
             </div>
 
             <div className='next'>
-            <nav>
-            <Link to='/clock'>Next</Link>
-            </nav>
+                <nav>
+                    <Link to='/clock'>Next</Link>
+                </nav>
             </div>
 
         </div>

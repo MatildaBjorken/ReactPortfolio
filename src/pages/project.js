@@ -18,7 +18,7 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>Working with creativity really is something that motivates me. I really like to experiment with different styles and technologies and here is one of many examples!</p>
+                <p>Working with creativity is something that motivates me. I really like to experiment with different styles and technologies and here is one of many examples!</p>
             </div>
 
             <div>

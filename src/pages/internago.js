@@ -25,7 +25,7 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>Re-design, re-structure and re-build of Internagos existing website focusing on making the company feel more approachable to their visitors. 
+                <p>Re-design, re-structure and re-build of Internagos existing website with the main focus of making the company feel more approachable to their visitors. 
                 </p>
                 
             </div>

@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from '../components/header'
 
-
 const PageOne = () => (
     <div className='illustrations'>
         <Header/>
@@ -20,7 +19,6 @@ const PageOne = () => (
 
         </div>
 
-      
         <div className='header-center'>
 
             <div className='last-about'> 
