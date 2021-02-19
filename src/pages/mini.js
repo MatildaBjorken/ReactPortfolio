@@ -7,9 +7,7 @@ import Header from '../components/header'
 import Rick from '../images/mini/insect.png'
 import Habit from '../images/mini/colorgame.png'
 import Magic from '../images/mini/magic.png'
-
-
-
+import Meals from '../images/mini/meals.png'
 
 const PageOne = () => (
     <div className='illustrations'>
@@ -39,11 +37,13 @@ const PageOne = () => (
         </div>
 
         <div className='link-git'>
-            <a href="https://matildabjorken.github.io/magic8/">link to the magic 8 ball</a>
+            <a href="https://matildabjorken.github.io/insects/">link to the insect site</a>
             <br></br> <br></br>
             <a href="https://matildabjorken.github.io/colorGame/">link to the color game</a>
             <br></br> <br></br>
-            <a href="https://matildabjorken.github.io/insects/">link to the insect site</a>
+            <a href="https://matildabjorken.github.io/magic8/">link to the magic 8 ball</a>
+            <br></br> <br></br>
+            <a href="https://matildabjorken.github.io/recipies/">link to the meal site</a>
         </div>
 
         <div className='illustrations-images '>
@@ -51,8 +51,9 @@ const PageOne = () => (
             <img className='' src={Habit}/>
         </div>
 
-        <div className='illustrations-last'>
-            <img  src={Magic}/>
+        <div className='illustrations-images '>
+            <img className='' src={Magic}/>
+            <img className='' src={Meals}/>
         </div>
 
         <div className='header-center'>
