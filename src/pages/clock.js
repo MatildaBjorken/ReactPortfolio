@@ -17,7 +17,9 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>This was my first real coding project! This is a pomerado clock that helps you work more efficiently by keeping track of worktime and breaktime. I focused a lot on the logic in Javascript and to make the result more meaningful and visible pleasing for me, I integrated this neumorphism style</p>
+                <p>This was my first real coding project! This is a pomerado clock that helps you to work more efficiently by keeping track of worktime and breaktime. 
+                <br></br>
+                I focused a lot on the logic in Javascript and to make the result more meaningful and visible pleasing for me, I integrated this neumorphism style.</p>
             </div>
 
             <div>
