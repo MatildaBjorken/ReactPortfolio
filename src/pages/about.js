@@ -15,7 +15,7 @@ const SecondPage = () => (
     <div className='about-img'>
       <img className='about-me' src={Me}/>
          <p className='about-text'>Hey you! 
-            My name is Matilda Björk and Iam a frontend developer student @hyperisland
+            My name is Matilda Björk and Iam a 19 year old frontend developer student @hyperisland
             <br></br><br></br>
             I recently began to be fascinated by web programming. The combination of creativity and logic really inspired me and made me dive right in. I was suddenly in control of all elements I created and I gained experience and knowledge fast. I feel confidence in knowing that Ive found what I want to keep evolving and working with. 
             <br></br><br></br>
