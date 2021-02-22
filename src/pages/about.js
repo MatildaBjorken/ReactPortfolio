@@ -42,7 +42,7 @@ const SecondPage = () => (
           <br></br><br></br>
           Audience host
           <br></br>
-          Reaktionshallen, Mars 2020 - April 2020
+          Långsjö Teater, Mars 2020 - April 2020
           <br></br><br></br>
           Receptionist
           <br></br>

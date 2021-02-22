@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 
-
 import "../components/layout.css"
 import Header from '../components/header'
 import Rick from '../images/mini/insect.png'
 import Habit from '../images/mini/colorgame.png'
 import Magic from '../images/mini/magic.png'
 import Meals from '../images/mini/meals.png'
+import Font from '../images/mini/font.png'
 
 const PageOne = () => (
     <div className='illustrations'>
@@ -44,6 +44,8 @@ const PageOne = () => (
             <a href="https://matildabjorken.github.io/magic8/">link to the magic 8 ball</a>
             <br></br> <br></br>
             <a href="https://matildabjorken.github.io/recipies/">link to the meal site</a>
+            <br></br> <br></br>
+            <a href="https://matildabjorken.github.io/fonts/">link to the font site</a>
         </div>
 
         <div className='illustrations-images '>
@@ -54,6 +56,10 @@ const PageOne = () => (
         <div className='illustrations-images '>
             <img className='' src={Magic}/>
             <img className='' src={Meals}/>
+        </div>
+
+        <div className='illustrations-last'>
+            <img  src={Font}/>
         </div>
 
         <div className='header-center'>
