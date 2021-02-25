@@ -12,7 +12,7 @@ import Internago from '../images/figma.png'
 import News from '../images/news.png'
 import PlantBud from '../images/budplant.png'
 import Magic from '../images/magic.png'
-import Handen from '../images/ricola.png'
+import Ricola from '../images/ricola-2.png'
 
 
 const IndexPage = () => (
@@ -29,7 +29,7 @@ const IndexPage = () => (
 
       <Link to="/internago">
         <div className='img-internago img-top img-small'>
-        <img  src={Internago}  alt=''/>
+        <img  src={Internago}  alt='landing page of internago'/>
         <Link to="/internago" className='img-link'>Internago</Link>
         </div>
       </Link>
@@ -57,7 +57,7 @@ const IndexPage = () => (
 
       <Link to="/ricola" >
         <div className='img-cool img-top img-small'>
-          <img  src={Handen}  alt=''/>
+          <img  src={Ricola}  alt=''/>
           <Link to="/ricola" className='img-link'>Ricola</Link>
         </div>
       </Link>
