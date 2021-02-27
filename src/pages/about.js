@@ -17,7 +17,7 @@ const SecondPage = () => (
          <p className='about-text'>Hey you! 
             My name is Matilda Björk and Iam a 19 year old frontend developer student @hyperisland
             <br></br><br></br>
-            I recently began to be fascinated by web programming. The combination of creativity and logic really inspired me and made me dive right in. I was suddenly in control of all elements I created and I gained experience and knowledge fast. I feel confidence in knowing that Ive found what I want to keep evolving and working with. 
+            I am a positive, well organised and success driven team worker with an eye for detail. Working with creativity to solve problems has always been a huge motivation, and is what drove me to become a frontend developer. I feel confidence in knowing that Ive found what I want to keep evolving and working with. 
             <br></br><br></br>
             Therefore, I am keen to gain more experience in the field. For this reason, I am looking for an internship as well as a temporary project to contribute to. In return, I would offer my full commitment, be an optimistic and ambitious addition to your team! 
             </p>
