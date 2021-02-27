@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from '../components/header'
 import Rick from '../images/mini/insect.png'
-import Habit from '../images/mini/colorgame.png'
+import Habit from '../images/mini/color-game.png'
 import Magic from '../images/mini/magic.png'
 import Meals from '../images/mini/meals.png'
 import Font from '../images/mini/font.png'
