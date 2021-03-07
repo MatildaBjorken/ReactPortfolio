@@ -131,7 +131,7 @@ const SecondPage = () => (
           
       </div>
         <div className='about-link'>
-        <Link className='about-back' to='https://romantic-keller-760dd7.netlify.app'> Go Back :-)</Link>
+        <Link className='about-back' to='https://www.bjorkmatilda.com/'> Go Back :-)</Link>
         </div>
   </div>
 )
