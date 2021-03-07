@@ -64,7 +64,7 @@ const PageOne = () => (
 
         <div className='next'>
             <nav>
-                <Link to='/plantbud'>Next</Link>
+                <Link to='/quiz'>Next</Link>
             </nav>
         </div>
 

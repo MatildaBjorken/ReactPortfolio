@@ -13,6 +13,7 @@ import News from '../images/news.png'
 import PlantBud from '../images/budplant.png'
 import Magic from '../images/magic.png'
 import Ricola from '../images/ricola-2.png'
+import CodeGame from '../images/code-game.png'
 
 
 const IndexPage = () => (
@@ -45,6 +46,13 @@ const IndexPage = () => (
         <div className='img-news img-top img-small'>
           <img  src={News}  alt=''/>
           <Link to="/news" className='img-link'>NewsAPI</Link>
+        </div>
+      </Link>
+
+      <Link to="/quiz">
+        <div className='img-news img-top img-small'>
+          <img  src={CodeGame}  alt=''/>
+          <Link to="/quiz" className='img-link'>Quiz !</Link>
         </div>
       </Link>
 

@@ -32,12 +32,12 @@ const PageOne = () => (
         </div>
 
         <div className='illustrations-images '>
-            <img className='' src={Mrcool}/>
-            <img className='' src={TwoCool}/>
+            <img className='' src={Mrcool} alt='illustration'/>
+            <img className='' src={TwoCool} alt='illustration'/>
         </div>
 
         <div className='illustrations-last'>
-            <img  src={Cowman}/>
+            <img  src={Cowman} alt='illustration'/>
         </div>
 
 
