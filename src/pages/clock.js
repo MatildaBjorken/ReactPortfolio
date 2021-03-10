@@ -35,7 +35,7 @@ const PageOne = () => (
         </div>
 
         <div className='link-git'>
-            <a href="https://matildabjorken.github.io/clock/ ">link to the current website</a>
+            <a className='link-a' href="https://matildabjorken.github.io/clock/ ">link to the current website</a>
         </div>
 
         <div className='illustrations-images '>

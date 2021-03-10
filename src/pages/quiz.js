@@ -38,7 +38,7 @@ const PageOne = () => (
             </div>
         </div>
         <div className='link-git'>
-            <a href="https://matildabjorken.github.io/code-game/ ">link to the game</a>
+            <a className='link-a' href="https://matildabjorken.github.io/code-game/ ">link to the game</a>
         </div>
 
         <div className='internago'>

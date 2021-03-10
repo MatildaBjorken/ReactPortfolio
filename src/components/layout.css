@@ -22,7 +22,7 @@ img{
 a {
     text-decoration: none;
     color: black;
-    filter: blur(1.3px);
+    filter: blur(1.5px);
 
 }
 
@@ -39,7 +39,7 @@ header{
     align-items: center;
     font-size: 1.5rem;
     font-weight: 900;
-    filter: blur(1.5px);
+ 
 }
 
 .next{
@@ -311,6 +311,11 @@ font-size: .9rem;
     }
     header{
         font-size: 1.2rem;
+       
+    }
+
+    .link-a{
+        filter: blur(1.2px); 
       
     }
 
@@ -320,11 +325,14 @@ font-size: .9rem;
 
     h3{
         font-size: .9rem; 
+        filter: blur(1.2px); 
     }
 
     .link-git{
         font-size: .9rem; 
     }
+
+
 
 
 

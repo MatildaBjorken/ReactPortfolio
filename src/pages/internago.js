@@ -46,7 +46,7 @@ const PageOne = () => (
             </div>
         </div>
                 <div className='link-git'>
-                <a href="https://inspiring-heyrovsky-bd5ba4.netlify.app/ ">link to the current website</a>
+                <a className='link-a' href="https://inspiring-heyrovsky-bd5ba4.netlify.app/ ">link to the current website</a>
                 </div>
 
         <div className='internago'>

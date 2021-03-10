@@ -37,9 +37,9 @@ const PageOne = () => (
         </div>
 
         <div className='link-git'>
-            <a href="https://github.com/MatildaBjorken/finalFrontend">link to the source code (frontend)</a>
+            <a className='link-a' href="https://github.com/MatildaBjorken/finalFrontend">link to the source code (frontend)</a>
             <br></br> <br></br>
-            <a href="https://github.com/MatildaBjorken/CMSbackend">link to the source code (backend)</a>
+            <a className='link-a' href="https://github.com/MatildaBjorken/CMSbackend">link to the source code (backend)</a>
         </div>
 
         <div className='internago'>

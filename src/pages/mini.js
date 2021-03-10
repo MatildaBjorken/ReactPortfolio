@@ -37,15 +37,15 @@ const PageOne = () => (
         </div>
 
         <div className='link-git'>
-            <a href="https://matildabjorken.github.io/insects/">link to the insect site</a>
+            <a className='link-a' href="https://matildabjorken.github.io/insects/">link to the insect site</a>
             <br></br> <br></br>
-            <a href="https://matildabjorken.github.io/colorGame/">link to the color game</a>
+            <a className='link-a' href="https://matildabjorken.github.io/colorGame/">link to the color game</a>
             <br></br> <br></br>
-            <a href="https://matildabjorken.github.io/magic8/">link to the magic 8 ball</a>
+            <a className='link-a' href="https://matildabjorken.github.io/magic8/">link to the magic 8 ball</a>
             <br></br> <br></br>
-            <a href="https://matildabjorken.github.io/recipies/">link to the meal site</a>
+            <a className='link-a' href="https://matildabjorken.github.io/recipies/">link to the meal site</a>
             <br></br> <br></br>
-            <a href="https://matildabjorken.github.io/fonts/">link to the font site</a>
+            <a className='link-a' href="https://matildabjorken.github.io/fonts/">link to the font site</a>
         </div>
 
         <div className='illustrations-images '>
