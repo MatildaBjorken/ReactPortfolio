@@ -12,7 +12,7 @@ import Internago from '../images/figma.png'
 import News from '../images/news.png'
 import PlantBud from '../images/budplant.png'
 import Magic from '../images/magic.png'
-import Ricola from '../images/ricola-2.png'
+import Ricola from '../images/ricola-main.png'
 import CodeGame from '../images/code-game.png'
 
 
