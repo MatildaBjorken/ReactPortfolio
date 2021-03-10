@@ -19,7 +19,7 @@ const PageOne = () => (
             <div >
                 <h3>Project Desctiption</h3>
                 <br></br>
-                <p>A project between UX and Frontend students at Hyper Island where we are developing a part of a website for Ricola that highlights their ecological footsteps and how they are sustainable.</p>
+                <p>A project between UX and Frontend students at Hyper Island where we developed a part of a website for Ricola that highlights their ecological footsteps and how they are sustainable.</p>
             </div>
 
             <div>
