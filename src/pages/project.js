@@ -8,8 +8,6 @@ import TwoCool from '../images/projects/twocool.png'
 import Cowman from '../images/projects/cowman.png'
 import Mrcool from '../images/nunu.png'
 
-
-
 const PageOne = () => (
     <div className='illustrations'>
         <Header/>
@@ -37,10 +35,8 @@ const PageOne = () => (
         </div>
 
         <div className='illustrations-last'>
-            <img  src={Cowman} alt='illustration'/>
+            <img src={Cowman} alt='illustration'/>
         </div>
-
-
 
         <div className='header-center'>
 
