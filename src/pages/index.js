@@ -6,14 +6,14 @@ import "../components/layout.css"
 import Header from '../components/header'
 
 import Mrcool from '../images/nunu.png'
-import Clouds from '../images/clouds.png'
+import Clouds from '../images/cloud-new.png'
 import Cow from '../images/handen.png'
 import Internago from '../images/figma.png'
-import News from '../images/news.png'
+import News from '../images/blog-new.png'
 import PlantBud from '../images/budplant.png'
-import Magic from '../images/magic.png'
+import Magic from '../images/new-mini.png'
 import Ricola from '../images/ricola-main.png'
-import CodeGame from '../images/code-game.png'
+import CodeGame from '../images/new-quiz.png'
 
 
 const IndexPage = () => (
