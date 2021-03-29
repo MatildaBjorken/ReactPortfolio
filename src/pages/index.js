@@ -4,11 +4,10 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 
 import Header from "../components/header"
-
 import Mrcool from "../images/nunu.png"
 import Clouds from "../images/cloud-new.png"
 import Cow from "../images/handen.png"
-import Internago from "../images/figma.png"
+import Internago from "../images/new-internago.png"
 import News from "../images/blog-new.png"
 import PlantBud from "../images/budplant.png"
 import Magic from "../images/new-mini.png"
