@@ -362,6 +362,10 @@ header a {
     text-align: center;
 }
 
+.illustrations-last-two{
+    margin-bottom: 3em;
+}
+
 .illustrations-last img{
     width: 50%;
     margin-bottom: 3em; 

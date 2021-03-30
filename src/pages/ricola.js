@@ -43,7 +43,7 @@ const PageOne = () => (
             <img className='' src={Sidebar} alt='the highscores'/>
         </div>
 
-        <div className='illustrations-images '>
+        <div className='illustrations-images illustrations-last-two '>
             <img className='' src={Modal} alt='the game starts'/>
             <img className='' src={Info} alt='the highscores'/>
         </div>

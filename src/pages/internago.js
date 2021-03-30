@@ -71,7 +71,7 @@ const PageOne = () => (
             <img className='' src={Blog2}/>
         </div>
 
-        <div className='internago-one'>
+        <div className='illustrations-last img'>
             <img  src={Mobile}/>
         </div>
 
