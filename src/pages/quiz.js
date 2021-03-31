@@ -6,7 +6,6 @@ import Header from "../components/header"
 import CodeGame from "../images/quiz/quiz-phones.png"
 import Game from "../images/quiz/large-desktop-home.png"
 import HighScores from "../images/quiz/large-desktop-end.png"
-import End from "../images/quiz/end.png"
 
 const PageOne = () => (
   <div className="illustrations">

@@ -5,11 +5,10 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from '../components/header'
 
-import RicolaMain from '../images/ricola/ricola-main.png'
-import Main from '../images/ricola/main.png'
-import Sidebar from '../images/ricola/sidebar.png'
-import Modal from '../images/ricola/modal.png'
-import Info from '../images/ricola/info.png'
+import RicolaMain from '../images/ricola/desktop-main.png'
+import Main from '../images/ricola/tilted-info.png'
+import Sidebar from '../images/ricola/tilted-sidebar.png'
+import Info from '../images/ricola/ricola-desktop-double.png'
 
 const PageOne = () => (
     <div className='illustrations'>
@@ -43,10 +42,9 @@ const PageOne = () => (
             <img className='' src={Sidebar} alt='the highscores'/>
         </div>
 
-        <div className='illustrations-images illustrations-last-two '>
-            <img className='' src={Modal} alt='the game starts'/>
-            <img className='' src={Info} alt='the highscores'/>
-        </div>
+        <div className="illustrations-last-one">
+      <img src={Info} />
+    </div>
 
         <div className='header-center'>
 
