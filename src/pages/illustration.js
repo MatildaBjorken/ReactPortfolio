@@ -5,9 +5,9 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from '../components/header'
 
-import Bild1 from '../images/illustrations/first.jpg'
-import Bild2 from '../images/illustrations/second.jpg'
-import Bild3 from '../images/illustrations/food.jpg'
+import Bild1 from '../images/illustrations/frame-first.png'
+import Bild2 from '../images/illustrations/frame-second.png'
+import Bild3 from '../images/illustrations/frame-food.png'
 
 const PageOne = () => (
     <div className='illustrations'>

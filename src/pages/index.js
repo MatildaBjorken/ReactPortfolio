@@ -20,7 +20,7 @@ const IndexPage = () => (
     <div className="img-grid">
       <Link to="/clock">
         <div className="img-cloud img-top ">
-          <img src={Clouds} alt="pomerado clock" />
+          <img src={Clouds} alt="pomerado clock"  />
           <Link to="/clock" className="img-link">
             TicTac
           </Link>
@@ -74,7 +74,7 @@ const IndexPage = () => (
 
       <Link to="/ricola">
         <div className="img-magic img-top img-small">
-          <img src={Ricola} alt="" width="100" />
+          <img src={Ricola} alt="" />
           <Link to="/ricola" className="img-link">
             Ricola
           </Link>
