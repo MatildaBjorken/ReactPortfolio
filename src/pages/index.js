@@ -5,14 +5,14 @@ import "../components/layout.css"
 
 import Header from "../components/header"
 import Mrcool from "../images/nunu.png"
-import Clouds from "../images/cloud-new.png"
+import Clouds from "../images/cloud-middle.png"
 import Cow from "../images/handen.png"
 import Internago from "../images/new-internago.png"
-import News from "../images/blog-new.png"
+import News from "../images/mini-blog.png"
 import PlantBud from "../images/budplant.png"
-import Magic from "../images/new-mini.png"
-import Ricola from "../images/new-ricola.png"
-import CodeGame from "../images/new-quiz.png"
+import Magic from "../images/mini-small.png"
+import Ricola from "../images/mini-ricola.png"
+import CodeGame from "../images/mini-quiz.png"
 
 const IndexPage = () => (
   <div className="home">
@@ -20,7 +20,7 @@ const IndexPage = () => (
     <div className="img-grid">
       <Link to="/clock">
         <div className="img-cloud img-top ">
-          <img src={Clouds} alt="pomerado clock"  />
+          <img src={Clouds} alt="pomerado clock" />
           <Link to="/clock" className="img-link">
             TicTac
           </Link>

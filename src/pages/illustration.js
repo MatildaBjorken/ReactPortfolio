@@ -29,7 +29,7 @@ const PageOne = () => (
         </div>
 
         <div className='illustrations-images '>
-            <img className='' src={Bild1}/>
+            <img className='' src={Bild1} />
             <img className='' src={Bild2}/>
         </div>
      
