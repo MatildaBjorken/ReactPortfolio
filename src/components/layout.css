@@ -205,6 +205,10 @@ header a {
   margin-bottom: 3em;
 }
 
+#advice{
+  display: none;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 1200px) {

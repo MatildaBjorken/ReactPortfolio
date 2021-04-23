@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from "../components/header"
 import CodeGame from "../images/quiz/quiz-phones.png"
-import Game from "../images/quiz/large-desktop-home.png"
-import HighScores from "../images/quiz/large-desktop-end.png"
+import Game from "../images/quiz/large-desktop-one.png"
+import HighScores from "../images/quiz/large-desktop-two.png"
 
 const PageOne = () => (
   <div className="illustrations">

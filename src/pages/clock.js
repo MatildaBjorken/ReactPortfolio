@@ -4,8 +4,11 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from "../components/header"
 import Press from "../images/clock/cloud-ipad.png"
-import Tic from "../images/clock/cloud-laptop.png"
+import Laptop from "../images/clock/cloud-laptop.png"
 import Mobile from "../images/clock/cloud-phone.png"
+import NewIpad from "../images/clock/new-ipad.png"
+import NewPhone from "../images/clock/new-phone.png"
+import NewLaptop from "../images/clock/new-laptop.png"
 
 const PageOne = () => (
   <div className="illustrations">
@@ -16,11 +19,11 @@ const PageOne = () => (
         <h3>Project Desctiption</h3>
         <br></br>
         <p>
-          This was my first real coding project! This is a pomodoro clock that
-          helps you work more efficiently by keeping track of worktime and
-          breaktime.
-          <br></br>I focused a lot on the logic in Javascript and to make the
-          result more visibly pleasing, I integrated this neumorphism style.
+          The Pomodoro clock with on the left was my first real coding project.
+          I focused a lot on the logic in Javascript and to make the result more
+          visibly pleasing, I integrated this neumorphism style.
+          <br></br> <br></br>The Pomodoro clock on the right was made half a
+          year lather using React, Exploring hooks, integrating sound in just the span of one week.
         </p>
       </div>
 
@@ -33,23 +36,36 @@ const PageOne = () => (
           CSS
           <br></br>
           JavaScript
+          <br></br>
+          React
         </p>
       </div>
     </div>
 
     <div className="link-git">
       <a className="link-a" href="https://matildabjorken.github.io/clock/ ">
-        link to the current website
+        link to the old website
+      </a>
+      <br></br>
+      <br></br>
+      <a className="link-a" href="https://tictack.netlify.app/">
+        link to the new website
       </a>
     </div>
 
     <div className="illustrations-images ">
       <img className="" src={Press} />
-      <img className="" src={Tic} />
+      <img className="" src={NewIpad} />
     </div>
 
-    <div className="illustrations-last">
-      <img src={Mobile} />
+    <div className="illustrations-images ">
+      <img className="" src={Mobile} />
+      <img className="" src={NewPhone} />
+    </div>
+
+    <div className="illustrations-images illustrations-last-two">
+      <img className="" src={Laptop} />
+      <img className="" src={NewLaptop} />
     </div>
 
     <div className="header-center">

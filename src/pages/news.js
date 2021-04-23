@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from "../components/header"
 import First from "../images/news/landing-page.png"
-import Edit from "../images/news/edit-post.png"
-import Loadmore from "../images/news/load-more.png"
-import Bottom from "../images/news/bottom-page.png"
+import Edit from "../images/news/edit.png"
+import Loadmore from "../images/news/load.png"
+import Bottom from "../images/news/bottom.png"
 
 const PageOne = () => (
   <div className="illustrations">
@@ -65,7 +65,7 @@ const PageOne = () => (
 
     <div className="header-center">
       <div className="last-about">
-        <Link to="/news">About/Contact</Link>
+        <Link to="/about">About/Contact</Link>
       </div>
 
       <div className="next">
