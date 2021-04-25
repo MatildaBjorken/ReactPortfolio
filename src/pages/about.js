@@ -12,7 +12,6 @@ const SecondPage = () => {
   function myFunction() {
     let x = document.getElementById("advice")
     x.style.display = "block"
-   
   }
   const [advice, setAdvice] = useState("")
 
@@ -173,14 +172,6 @@ const SecondPage = () => {
           <br></br>
           <a className="about-mail" href="https://github.com/MatildaBjorken">
             go to my github!
-          </a>
-          <br></br>
-          <br></br>
-          <a
-            className="about-mail"
-            href="https://matildabjorken.github.io/business-card/"
-          >
-            contact page!
           </a>
         </p>
       </div>

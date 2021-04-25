@@ -6,7 +6,7 @@ import Header from "../components/header"
 import Rick from "../images/mini/insect.png"
 import Habit from "../images/mini/color-game.png"
 import Magic from "../images/mini/magic.png"
-import Meals from "../images/mini/meals.png"
+import Cubes from "../images/mini/cubes.png"
 import Font from "../images/mini/font.png"
 
 const PageOne = () => (
@@ -42,8 +42,11 @@ const PageOne = () => (
         link to the insect site
       </a>
       <br></br> <br></br>
-      <a className="link-a" href="https://matildabjorken.github.io/colorGame/">
-        link to the color game
+      <a
+        className="link-a"
+        href="https://matildabjorken.github.io/business-card/"
+      >
+        link to the cubes
       </a>
       <br></br> <br></br>
       <a className="link-a" href="https://matildabjorken.github.io/magic8/">
@@ -56,13 +59,13 @@ const PageOne = () => (
     </div>
 
     <div className="illustrations-images ">
-      <img className="" src={Rick} />
-      <img className="" src={Habit} />
+      <img className="" src={Font} />
+      <img className="" src={Cubes} />
     </div>
 
     <div className="illustrations-images illustrations-last-two">
       <img className="" src={Magic} />
-      <img src={Font} />
+      <img src={Rick} />
     </div>
 
     <div className="header-center">
