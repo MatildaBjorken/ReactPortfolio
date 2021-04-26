@@ -4,10 +4,9 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from "../components/header"
 import Rick from "../images/mini/insect.png"
-import Habit from "../images/mini/color-game.png"
-import Magic from "../images/mini/magic.png"
-import Cubes from "../images/mini/cubes.png"
-import Font from "../images/mini/font.png"
+import Magic from "../images/mini/magic-device.png"
+import Cubes from "../images/mini/cubes-device.png"
+import Font from "../images/mini/font-device.png"
 
 const PageOne = () => (
   <div className="illustrations">
@@ -30,9 +29,9 @@ const PageOne = () => (
           <br></br>
           JavaScript
           <br></br>
-          Local Storage
+          React
           <br></br>
-          API
+          Three js
         </p>
       </div>
     </div>

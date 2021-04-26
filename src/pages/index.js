@@ -5,14 +5,14 @@ import "../components/layout.css"
 
 import Header from "../components/header"
 import Mrcool from "../images/nunu.png"
-import Clouds from "../images/new-clock.png"
+import Clouds from "../images/cloud-middle.png"
 import Cow from "../images/handen.png"
 import Internago from "../images/new-internago.png"
 import News from "../images/mini-blog.png"
 import PlantBud from "../images/budplant.png"
 import Magic from "../images/mini-small.png"
 import Ricola from "../images/mini-ricola.png"
-import CodeGame from "../images/quiz.png"
+import CodeGame from "../images/mini-quiz.png"
 
 const IndexPage = () => (
   <div className="home">
