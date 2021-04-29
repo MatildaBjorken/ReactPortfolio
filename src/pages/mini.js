@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 import Header from "../components/header"
-import Rick from "../images/mini/insect.png"
 import Magic from "../images/mini/magic-device.png"
 import Cubes from "../images/mini/cubes-device.png"
 import Font from "../images/mini/font-device.png"
+import Egg from "../images/mini/egg.png"
 
 const PageOne = () => (
   <div className="illustrations">
@@ -32,13 +32,15 @@ const PageOne = () => (
           React
           <br></br>
           Three js
+          <br></br>
+          p5 js
         </p>
       </div>
     </div>
 
     <div className="link-git">
-      <a className="link-a" href="https://matildabjorken.github.io/insects/">
-        link to the insect site
+      <a className="link-a" href="https://matildabjorken.github.io/blob/">
+        link to the egg site
       </a>
       <br></br> <br></br>
       <a
@@ -64,7 +66,7 @@ const PageOne = () => (
 
     <div className="illustrations-images illustrations-last-two">
       <img className="" src={Magic} />
-      <img src={Rick} />
+      <img src={Egg} />
     </div>
 
     <div className="header-center">
