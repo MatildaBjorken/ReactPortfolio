@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 import Header from "../components/header"
-import Magic from "../images/mini/magic-device.png"
+import Magic from "../images/mini/rhytm.png"
 import Cubes from "../images/mini/cubes-device.png"
 import Font from "../images/mini/font-device.png"
-import Egg from "../images/mini/egg.png"
+import Egg from "../images/mini/new-egg.png"
 
 const PageOne = () => (
   <div className="illustrations">
@@ -16,7 +16,7 @@ const PageOne = () => (
       <div>
         <h3>Project Desctiption</h3>
         <br></br>
-        <p>Some small projects I have done for myself to learn coding more!</p>
+        <p>Some small projects I have done for myself to learn coding more and be more creative!</p>
       </div>
 
       <div>
@@ -34,6 +34,10 @@ const PageOne = () => (
           Three js
           <br></br>
           p5 js
+          <br></br>
+          anime js
+          <br></br>
+          gsap
         </p>
       </div>
     </div>
@@ -50,8 +54,8 @@ const PageOne = () => (
         link to the cubes
       </a>
       <br></br> <br></br>
-      <a className="link-a" href="https://matildabjorken.github.io/magic8/">
-        link to the magic 8 ball
+      <a className="link-a" href="https://matildabjorken.github.io/rhythm/">
+        link to the rhythm site
       </a>
       <br></br> <br></br>
       <a className="link-a" href="https://matildabjorken.github.io/fonts/">

@@ -10,7 +10,7 @@ import Cow from "../images/handen.png"
 import Internago from "../images/new-internago.png"
 import News from "../images/mini-blog.png"
 import PlantBud from "../images/budplant.png"
-import Magic from "../images/mini-small.png"
+import Magic from "../images/new-mini.png"
 import Ricola from "../images/mini-ricola.png"
 import CodeGame from "../images/mini-quiz.png"
 

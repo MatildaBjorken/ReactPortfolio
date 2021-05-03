@@ -37,6 +37,7 @@ header {
   align-items: center;
   font-size: 1.5rem;
   font-weight: 900;
+  letter-spacing: 1.5px;
 }
 
 .link-a {
@@ -50,6 +51,7 @@ header {
 }
 
 .next {
+  letter-spacing: 1.5px;
   font-size: 1.5rem;
 }
 
@@ -131,6 +133,7 @@ header a {
   text-align: center;
   opacity: 0;
   transition: 1s ease;
+  letter-spacing: 1.5px;
 }
 
 .img-top:hover .img-link {
