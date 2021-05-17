@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 
+import Cursor from "../components/dot"
+
 import Header from "../components/header"
 import Mrcool from "../images/nunu.png"
 import Clouds from "../images/cloud-middle.png"
@@ -17,6 +19,7 @@ import CodeGame from "../images/mini-quiz.png"
 const IndexPage = () => (
   <div className="home">
     <Header />
+    <Cursor />
     <div className="img-grid">
       <Link to="/clock">
         <div className="img-cloud img-top ">

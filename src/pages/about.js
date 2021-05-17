@@ -2,40 +2,19 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 import Header from "../components/header"
-
+import Cursor from "../components/dot"
 import Me from "../images/me.png"
 import Letter from "../images/newletter.png"
 
-import React, { useEffect, useState } from "react"
+import React from "react"
 
 const SecondPage = () => {
-  function myFunction() {
-    let x = document.getElementById("advice")
-    x.style.display = "block"
-  }
-  const [advice, setAdvice] = useState("")
-
-  useEffect(() => {
-    const url = "https://api.adviceslip.com/advice"
-
-    const fetchData = async () => {
-      try {
-        const response = await fetch(url)
-        const json = await response.json()
-        setAdvice(json.slip.advice)
-      } catch (error) {
-        console.log("error", error)
-      }
-    }
-
-    fetchData()
-  }, [])
   return (
     <div className="about">
       <Header />
-
+      <Cursor />
       <div className="about-img">
-        <img className="about-me" src={Me} />
+        <img className="about-me" src={Me} alt="illustration of me" />
         <p className="about-text">
           Hey you! My name is Matilda Björk and Iam a 19 year old frontend
           developer student @hyperisland
@@ -151,14 +130,8 @@ const SecondPage = () => {
       </div>
 
       <div className="about-letter">
-        <img
-          src={Letter}
-          onClick={() => {
-            myFunction()
-          }}
-        />
-        <p id="advice">{advice}</p>
-        <br></br>
+        <img src={Letter} alt="illustration of letters" />
+
         <p className="about-contact">
           Sweden, Stockholm
           <br></br>
@@ -175,6 +148,7 @@ const SecondPage = () => {
           </a>
         </p>
       </div>
+
       <div className="about-link">
         <Link className="about-back" to="https://www.bjorkmatilda.com/">
           {" "}

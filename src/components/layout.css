@@ -40,6 +40,19 @@ header {
   letter-spacing: 1.5px;
 }
 
+.cursor {
+  width: 20px;
+  height: 20px;
+  transform: translate(10px, 10px);
+  background-color: black;
+  border-radius: 100%;
+  position: fixed;
+  pointer-events: none;
+  transition: all 0.3s ease-out;
+  z-index: 10;
+  filter: blur(2.5px);
+}
+
 .link-a {
   transition: transform 0.2s;
   filter: blur(1.2px);
@@ -208,7 +221,7 @@ header a {
   margin-bottom: 3em;
 }
 
-#advice{
+#advice {
   display: none;
 }
 

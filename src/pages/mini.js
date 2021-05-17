@@ -16,7 +16,10 @@ const PageOne = () => (
       <div>
         <h3>Project Desctiption</h3>
         <br></br>
-        <p>Some small projects I have done for myself to learn coding more and be more creative!</p>
+        <p>
+          Be creative with code! Some small projects I have done with the
+          desired outcome to make them look like graphic posters! I have explored multiple libraries and tools.
+        </p>
       </div>
 
       <div>
