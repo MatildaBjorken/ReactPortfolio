@@ -15,10 +15,12 @@ import Section2 from "../images/internago/section2.png"
 import Internago from "../images/internago/internago.png"
 import Figma from "../images/internago/figma.png"
 
+import Cursor from "../components/dot"
+
 const PageOne = () => (
   <div className="illustrations">
     <Header />
-
+    <Cursor />
     <div className="illustrations-text">
       <div>
         <h3>Project Desctiption</h3>

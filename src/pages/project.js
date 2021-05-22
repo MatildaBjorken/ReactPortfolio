@@ -7,10 +7,12 @@ import TwoCool from "../images/projects/twocool.png"
 import Cowman from "../images/projects/cowman.png"
 import Mrcool from "../images/nunu.png"
 
+import Cursor from "../components/dot"
+
 const PageOne = () => (
   <div className="illustrations">
     <Header />
-
+    <Cursor />
     <div className="illustrations-text">
       <div>
         <h3>Project Desctiption</h3>

@@ -10,10 +10,12 @@ import Main from '../images/ricola/tilted-info.png'
 import Sidebar from '../images/ricola/tilted-sidebar.png'
 import Info from '../images/ricola/ricola-desktop-double.png'
 
+import Cursor from "../components/dot"
+
 const PageOne = () => (
     <div className='illustrations'>
         <Header/>
-
+        <Cursor />
         <div className='illustrations-text'>
             <div >
                 <h3>Project Desctiption</h3>

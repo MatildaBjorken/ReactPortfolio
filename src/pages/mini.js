@@ -8,17 +8,20 @@ import Cubes from "../images/mini/cubes-device.png"
 import Font from "../images/mini/font-device.png"
 import Egg from "../images/mini/new-egg.png"
 
+import Cursor from "../components/dot"
+
 const PageOne = () => (
   <div className="illustrations">
     <Header />
-
+    <Cursor />
     <div className="illustrations-text">
       <div>
         <h3>Project Desctiption</h3>
         <br></br>
         <p>
           Be creative with code! Some small projects I have done with the
-          desired outcome to make them look like graphic posters! I have explored multiple libraries and tools.
+          desired outcome to make them look like graphic posters! I have
+          explored multiple libraries and tools.
         </p>
       </div>
 

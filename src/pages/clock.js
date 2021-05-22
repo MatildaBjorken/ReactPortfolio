@@ -10,10 +10,12 @@ import NewIpad from "../images/clock/new-ipad.png"
 import NewPhone from "../images/clock/new-phone.png"
 import NewLaptop from "../images/clock/new-laptop.png"
 
+import Cursor from "../components/dot"
+
 const PageOne = () => (
   <div className="illustrations">
     <Header />
-
+    <Cursor />
     <div className="illustrations-text">
       <div>
         <h3>Project Desctiption</h3>

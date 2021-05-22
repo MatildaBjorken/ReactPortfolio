@@ -7,10 +7,12 @@ import CodeGame from "../images/quiz/quiz-phones.png"
 import Game from "../images/quiz/large-desktop-one.png"
 import HighScores from "../images/quiz/large-desktop-two.png"
 
+import Cursor from "../components/dot"
+
 const PageOne = () => (
   <div className="illustrations">
     <Header />
-
+    <Cursor />
     <div className="illustrations-text">
       <div>
         <h3>Project Desctiption</h3>

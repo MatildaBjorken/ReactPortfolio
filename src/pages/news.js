@@ -8,10 +8,12 @@ import Edit from "../images/news/edit.png"
 import Loadmore from "../images/news/load.png"
 import Bottom from "../images/news/bottom.png"
 
+import Cursor from "../components/dot"
+
 const PageOne = () => (
   <div className="illustrations">
     <Header />
-
+    <Cursor />
     <div className="illustrations-text">
       <div>
         <h3>Project Desctiption</h3>

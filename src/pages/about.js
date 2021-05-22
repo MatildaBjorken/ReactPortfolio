@@ -1,21 +1,30 @@
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
-
 import "../components/layout.css"
 import Header from "../components/header"
 import Cursor from "../components/dot"
 import Me from "../images/me.png"
 import Letter from "../images/newletter.png"
 
-import React from "react"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const SecondPage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
   return (
     <div className="about">
       <Header />
       <Cursor />
       <div className="about-img">
-        <img className="about-me" src={Me} alt="illustration of me" />
-        <p className="about-text">
+        <img
+          className="about-me"
+          src={Me}
+          alt="illustration of me"
+          data-aos="fade-up"
+        />
+        <p className="about-text" data-aos="fade-up">
           Hey you! My name is Matilda Björk and Iam a 19 year old frontend
           developer student @hyperisland
           <br></br>
@@ -34,7 +43,7 @@ const SecondPage = () => {
       </div>
 
       <div className="about-cv">
-        <div>
+        <div data-aos="fade-up">
           <h3>Work Experience</h3>
           <br></br>
           <p>
@@ -70,11 +79,11 @@ const SecondPage = () => {
             <br></br>
             Frontend Developer
             <br></br>
-            Internago, December - January 2021
+            Internago, December 2021 - Ongoing
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up">
           <h3>Skills</h3>
           <br></br>
           <p>
@@ -104,7 +113,7 @@ const SecondPage = () => {
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up">
           <h3>Education</h3>
           <br></br>
           <p>
@@ -130,9 +139,9 @@ const SecondPage = () => {
       </div>
 
       <div className="about-letter">
-        <img src={Letter} alt="illustration of letters" />
+        <img src={Letter} alt="illustration of letters" data-aos="fade-up"/>
 
-        <p className="about-contact">
+        <p className="about-contact" data-aos="fade-up">
           Sweden, Stockholm
           <br></br>
           +46 70 982 98 30

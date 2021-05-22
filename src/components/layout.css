@@ -315,6 +315,7 @@ header a {
   }
 
   .last-about {
+    font-size: 1.5rem;
     visibility: visible;
   }
 }
