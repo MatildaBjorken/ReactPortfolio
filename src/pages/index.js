@@ -25,7 +25,7 @@ const IndexPage = () => {
     <div className="home">
       <Header />
       <Cursor />
-      <div className="img-grid">
+      <div className="img-grid" >
         <Link to="/clock">
           <div className="img-cloud img-top" data-aos="fade-up">
             <img src={Clouds} alt="pomerado clock" />
@@ -72,7 +72,7 @@ const IndexPage = () => {
         </Link>
 
         <Link to="/plantbud">
-          <div className="img-plant img-top img-small">
+          <div className="img-plant img-top img-small" >
             <img src={PlantBud} alt="" />
             <Link to="/plantbud" className="img-link">
               PlantBud
@@ -81,7 +81,7 @@ const IndexPage = () => {
         </Link>
 
         <Link to="/ricola">
-          <div className="img-magic img-top img-small">
+          <div className="img-magic img-top img-small" data-aos="fade-up"> 
             <img src={Ricola} alt="" />
             <Link to="/ricola" className="img-link">
               Ricola
