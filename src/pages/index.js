@@ -17,6 +17,7 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const IndexPage = () => {
+
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
@@ -71,7 +72,7 @@ const IndexPage = () => {
         </Link>
 
         <Link to="/plantbud">
-          <div className="img-plant img-top img-small" data-aos="fade-up">
+          <div className="img-plant img-top img-small">
             <img src={PlantBud} alt="" />
             <Link to="/plantbud" className="img-link">
               PlantBud
@@ -80,7 +81,7 @@ const IndexPage = () => {
         </Link>
 
         <Link to="/ricola">
-          <div className="img-magic img-top img-small" data-aos="fade-up">
+          <div className="img-magic img-top img-small">
             <img src={Ricola} alt="" />
             <Link to="/ricola" className="img-link">
               Ricola

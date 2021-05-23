@@ -2,7 +2,9 @@ import { Link } from "gatsby"
 
 import React from "react"
 
-const Header = () => (
+const Header = () => {
+  
+  return(
   <header>
     <div className='header-container'>
       <div className='header-center'>
@@ -20,7 +22,8 @@ const Header = () => (
       </div>
     </div>
   </header>
-)
+  )
+}
 
 
 export default Header
