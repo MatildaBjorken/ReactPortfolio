@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
 
 import "../components/layout.css"
@@ -10,73 +10,84 @@ import Bottom from "../images/news/bottom.png"
 
 import Cursor from "../components/dot"
 
-const PageOne = () => (
-  <div className="illustrations">
-    <Header />
-    <Cursor />
-    <div className="illustrations-text">
-      <div>
-        <h3>Project Desctiption</h3>
-        <br></br>
-        <p>
-          I worked with both the frontend and the backend where I created my own
-          REST API that I used to connect the frontend and the backend. For the
-          frontend, I created this website where users dynamically can add, edit
-          and delete posts!
-        </p>
-      </div>
+import Aos from "aos"
+import "aos/dist/aos.css"
 
-      <div>
-        <h3>What was used?</h3>
-        <br></br>
-        <p>
-          PHP
+const PageOne = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+  return (
+    <div className="illustrations">
+      <Header />
+      <Cursor />
+      <div className="illustrations-text">
+        <div data-aos="fade-up">
+          <h3>Project Desctiption</h3>
           <br></br>
-          React
+          <p>
+            I worked with both the frontend and the backend where I created my
+            own REST API that I used to connect the frontend and the backend.
+            For the frontend, I created this website where users dynamically can
+            add, edit and delete posts!
+          </p>
+        </div>
+
+        <div data-aos="fade-up">
+          <h3>What was used?</h3>
           <br></br>
-          Datagrip
-        </p>
-      </div>
-    </div>
-
-    <div className="link-git">
-      <a
-        className="link-a"
-        href="https://github.com/MatildaBjorken/finalFrontend"
-      >
-        link to the source code (frontend)
-      </a>
-      <br></br> <br></br>
-      <a className="link-a" href="https://github.com/MatildaBjorken/CMSbackend">
-        link to the source code (backend)
-      </a>
-    </div>
-
-    <div className="internago">
-      <img className="" src={First} />
-    </div>
-
-    <div className="illustrations-images ">
-      <img className="" src={Edit} />
-      <img className="" src={Loadmore} />
-    </div>
-
-    <div className="illustrations-last">
-      <img src={Bottom} />
-    </div>
-
-    <div className="header-center">
-      <div className="last-about">
-        <Link to="/about">About/Contact</Link>
+          <p>
+            PHP
+            <br></br>
+            React
+            <br></br>
+            Datagrip
+          </p>
+        </div>
       </div>
 
-      <div className="next">
-        <nav>
-          <Link to="/quiz">Next</Link>
-        </nav>
+      <div className="link-git" data-aos="fade-up">
+        <a
+          className="link-a"
+          href="https://github.com/MatildaBjorken/finalFrontend"
+        >
+          link to the source code (frontend)
+        </a>
+        <br></br> <br></br>
+        <a
+          className="link-a"
+          href="https://github.com/MatildaBjorken/CMSbackend"
+        >
+          link to the source code (backend)
+        </a>
+      </div>
+
+      <div className="internago">
+        <img className="" src={First} data-aos="fade-up" />
+      </div>
+
+      <div className="illustrations-images ">
+        <img className="" src={Edit} data-aos="fade-up" />
+        <img className="" src={Loadmore} data-aos="fade-up" />
+      </div>
+
+      <div className="illustrations-last">
+        <img src={Bottom} data-aos="fade-up" />
+      </div>
+
+      <div className="header-center">
+        <div className="last-about">
+          <Link to="/about">About/Contact</Link>
+        </div>
+
+        <div className="next">
+          <nav>
+            <Link to="/quiz">Next</Link>
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
-)
+  )
+}
 
 export default PageOne

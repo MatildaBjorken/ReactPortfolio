@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
 
 import "../components/layout.css"
@@ -11,69 +11,81 @@ import Mobile from "../images/plantbud/mobile.png"
 
 import Cursor from "../components/dot"
 
-const PageOne = () => (
-  <div className="illustrations">
-    <Header />
-    <Cursor />
-    <div className="illustrations-text">
-      <div>
-        <h3>Project Desctiption</h3>
-        <br></br>
-        <p>
-          This project was a 36 hour sprint where I interpreted one of my
-          classmate's ’dream companies’ and visualised it with code and graphic
-          design.
-        </p>
-      </div>
+import Aos from "aos"
+import "aos/dist/aos.css"
 
-      <div>
-        <h3>What was used?</h3>
-        <br></br>
-        <p>
-          HTML
+const PageOne = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+  return (
+    <div className="illustrations">
+      <Header />
+      <Cursor />
+      <div className="illustrations-text">
+        <div data-aos="fade-up">
+          <h3>Project Desctiption</h3>
           <br></br>
-          SASS
+          <p>
+            This project was a 36 hour sprint where I interpreted one of my
+            classmate's ’dream companies’ and visualised it with code and
+            graphic design.
+          </p>
+        </div>
+
+        <div data-aos="fade-up">
+          <h3>What was used?</h3>
           <br></br>
-          JavaScript
-        </p>
-      </div>
-    </div>
-
-    <div className="link-git">
-      <a className="link-a" href="https://matildabjorken.github.io/plantBud/">
-        link to the current website
-      </a>
-    </div>
-
-    <div className="internago">
-      <img className="" src={First} />
-    </div>
-
-    <div className="illustrations-images ">
-      <img className="" src={About} />
-      <img className="" src={Shop} />
-    </div>
-
-    <div className="internago">
-      <img className="" src={Signin} />
-    </div>
-
-    <div className="illustrations-last">
-      <img src={Mobile} />
-    </div>
-
-    <div className="header-center">
-      <div className="last-about">
-        <Link to="/about">About/Contact</Link>
+          <p>
+            HTML
+            <br></br>
+            SASS
+            <br></br>
+            JavaScript
+          </p>
+        </div>
       </div>
 
-      <div className="next">
-        <nav>
-          <Link to="/ricola">Next</Link>
-        </nav>
+      <div className="link-git" data-aos="fade-up">
+        <a
+          className="link-a"
+          href="https://matildabjorken.github.io/plantBud/"
+          z
+        >
+          link to the current website
+        </a>
+      </div>
+
+      <div className="internago">
+        <img className="" src={First} data-aos="fade-up" />
+      </div>
+
+      <div className="illustrations-images ">
+        <img className="" src={About} data-aos="fade-up" />
+        <img className="" src={Shop} data-aos="fade-up" />
+      </div>
+
+      <div className="internago">
+        <img className="" src={Signin} data-aos="fade-up" />
+      </div>
+
+      <div className="illustrations-last">
+        <img src={Mobile} data-aos="fade-up" />
+      </div>
+
+      <div className="header-center">
+        <div className="last-about">
+          <Link to="/about">About/Contact</Link>
+        </div>
+
+        <div className="next">
+          <nav>
+            <Link to="/ricola">Next</Link>
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
-)
+  )
+}
 
 export default PageOne
