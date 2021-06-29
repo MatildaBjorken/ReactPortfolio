@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 import Header from "../components/header"
-import CodeGame from "../images/quiz/quiz-phones.png"
-import Game from "../images/quiz/large-desktop-one.png"
-import HighScores from "../images/quiz/large-desktop-two.png"
+import CodeGame from "../images/newspaper/phones.png"
+import Game from "../images/newspaper/computers.png"
+import HighScores from "../images/newspaper/phone.png"
 
 import Cursor from "../components/dot"
 
@@ -25,9 +25,7 @@ const PageOne = () => {
           <h3>Project Desctiption</h3>
           <br></br>
           <p>
-            A clean quiz game that lets you test your knowledge in computer
-            science! The questions are fetched from the open trivia database and
-            the scores you get are saved in local storage. Enjoy!
+          A simple News App with news fetched from New York Times API, where you can search for articles and read about the top rated articles. I designed and prototyped the app in Figma and then stared to develop it in React. Enjoy!
           </p>
         </div>
 
@@ -35,33 +33,35 @@ const PageOne = () => {
           <h3>What was used?</h3>
           <br></br>
           <p>
-            HTML
+            React
             <br></br>
             CSS
             <br></br>
-            JavaScript
+            framer-motion
             <br></br>
-            LocalStorage
+            GSAP
             <br></br>
-            API
+            Axios
+            <br></br>
+            Material-UI
           </p>
         </div>
       </div>
       <div className="link-git" data-aos="fade-up">
         <a
           className="link-a"
-          href="https://matildabjorken.github.io/code-game/ "
+          href="https://matildabjorken.github.io/news/"
         >
-          link to the game
+          link to the site
         </a>
       </div>
 
       <div className="internago">
-        <img src={CodeGame} alt="the game" data-aos="fade-up" />
+        <img src={Game} alt="the game" data-aos="fade-up" />
       </div>
 
       <div className="illustrations-images illustrations-last-two ">
-        <img src={Game} alt="the game starts" data-aos="fade-up" />
+        <img src={CodeGame} alt="the game starts" data-aos="fade-up" />
         <img src={HighScores} alt="the highscores" data-aos="fade-up" />
       </div>
 

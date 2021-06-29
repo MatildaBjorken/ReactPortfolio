@@ -11,7 +11,7 @@ import News from "../images/mini-blog.png"
 import PlantBud from "../images/budplant.png"
 import Magic from "../images/new-mini.png"
 import Ricola from "../images/mini-ricola.png"
-import CodeGame from "../images/mini-quiz.png"
+import CodeGame from "../images/news.png"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -63,10 +63,10 @@ const IndexPage = () => {
         </Link>
 
         <Link to="/quiz">
-          <div className="img-news img-top img-small" data-aos="fade-up">
+          <div className="img-magic img-top img-small" data-aos="fade-up">
             <img src={CodeGame} alt="" />
             <Link to="/quiz" className="img-link">
-              Quiz !
+              NewsPaper
             </Link>
           </div>
         </Link>

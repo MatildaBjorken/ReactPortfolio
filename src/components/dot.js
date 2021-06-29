@@ -7,15 +7,12 @@ export default function Cursor() {
     const addEventListeners = () => {
       document.addEventListener("mousemove", moveMouse)
     }
-
     const removeEventListeners = () => {
       document.removeEventListener("mousemove", moveMouse)
     }
-
     const moveMouse = el => {
       setPosition({ x: el.clientX, y: el.clientY })
     }
-
     addEventListeners()
     return () => removeEventListeners()
   }, [])
