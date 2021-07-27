@@ -6,7 +6,7 @@ import Header from "../components/header"
 import Mrcool from "../images/nunu.png"
 import Clouds from "../images/cloud-middle.png"
 import Cow from "../images/handen.png"
-import Internago from "../images/new-internago.png"
+import Internago from "../images/internago-home.png"
 import News from "../images/mini-blog.png"
 import PlantBud from "../images/budplant.png"
 import Magic from "../images/new-mini.png"
@@ -17,7 +17,6 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 const IndexPage = () => {
-
   useEffect(() => {
     Aos.init({ duration: 2000 })
   }, [])
@@ -25,7 +24,7 @@ const IndexPage = () => {
     <div className="home">
       <Header />
       <Cursor />
-      <div className="img-grid" >
+      <div className="img-grid">
         <Link to="/clock">
           <div className="img-cloud img-top" data-aos="fade-up">
             <img src={Clouds} alt="pomerado clock" />
@@ -72,7 +71,7 @@ const IndexPage = () => {
         </Link>
 
         <Link to="/plantbud">
-          <div className="img-plant img-top img-small" >
+          <div className="img-plant img-top img-small">
             <img src={PlantBud} alt="" />
             <Link to="/plantbud" className="img-link">
               PlantBud
@@ -81,7 +80,7 @@ const IndexPage = () => {
         </Link>
 
         <Link to="/ricola">
-          <div className="img-magic img-top img-small" data-aos="fade-up"> 
+          <div className="img-magic img-top img-small" data-aos="fade-up">
             <img src={Ricola} alt="" />
             <Link to="/ricola" className="img-link">
               Ricola

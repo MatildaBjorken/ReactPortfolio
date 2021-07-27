@@ -25,7 +25,7 @@ const SecondPage = () => {
           data-aos="fade-up"
         />
         <p className="about-text" data-aos="fade-up">
-          Hey you! My name is Matilda Björk and Iam a 19 year old frontend
+          Hey you! My name is Matilda Björk and Iam a 20 year old frontend
           developer student @hyperisland
           <br></br>
           <br></br>I am a positive, well organised and success driven team
