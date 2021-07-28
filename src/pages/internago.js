@@ -56,10 +56,7 @@ const PageOne = () => {
         </div>
       </div>
       <div className="link-git" data-aos="fade-up">
-        <a
-          className="link-a"
-          href="https://inspiring-heyrovsky-bd5ba4.netlify.app/ "
-        >
+        <a className="link-a" href="https://internago.netlify.app/ ">
           link to the current website
         </a>
       </div>
@@ -74,11 +71,6 @@ const PageOne = () => {
       <div className="internago-illustrations">
         <img className="" src={Section2} data-aos="fade-up" />
         <img className="" src={Section1} data-aos="fade-up" />
-      </div>
-
-      <div className="internago-illustrations">
-        <img className="" src={Another} data-aos="fade-up" />
-        <img className="" src={Another2} data-aos="fade-up" />
       </div>
 
       <div className="internago-illustrations">
