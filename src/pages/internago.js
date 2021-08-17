@@ -4,16 +4,10 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 import Header from "../components/header"
 import Mobile from "../images/internago/mobile.png"
-import Blog from "../images/internago/blog.png"
-import Blog2 from "../images/internago/blog2.png"
 
-import Another from "../images/internago/another.png"
-import Another2 from "../images/internago/another2.png"
-
-import Section1 from "../images/internago/section1.png"
-import Section2 from "../images/internago/section2.png"
-import Internago from "../images/internago/internago.png"
-import Figma from "../images/internago/figma.png"
+import Section1 from "../images/internago/computer-phones.png"
+import Section2 from "../images/internago/ipads.png"
+import Internago from "../images/internago/computers.png"
 
 import Cursor from "../components/dot"
 
@@ -64,22 +58,14 @@ const PageOne = () => {
       <div className="internago">
         <img className="" src={Internago} data-aos="fade-up" />
       </div>
-      <div className="internago-one figma">
-        <img src={Figma} data-aos="fade-up" />
-      </div>
 
       <div className="internago-illustrations">
-        <img className="" src={Section2} data-aos="fade-up" />
+        <img className="" src={Mobile} data-aos="fade-up" />
         <img className="" src={Section1} data-aos="fade-up" />
       </div>
 
-      <div className="internago-illustrations">
-        <img className="" src={Blog} data-aos="fade-up" />
-        <img className="" src={Blog2} data-aos="fade-up" />
-      </div>
-
       <div className="illustrations-last img">
-        <img src={Mobile} />
+        <img src={Section2} data-aos="fade-up"/>
       </div>
 
       <div className="header-center">
