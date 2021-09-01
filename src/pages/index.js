@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 import Mrcool from "../images/nunu.png"
 import Clouds from "../images/cloud-middle.png"
 import Cow from "../images/main/rocket.png"
-import Internago from "../images/internago-home.png"
+import Internago from "../images/main/mobile.png"
 import News from "../images/mini-blog.png"
 import PlantBud from "../images/budplant.png"
-import Magic from "../images/new-mini.png"
+import Magic from "../images/main/mini-projects.png"
 import Ricola from "../images/mini-ricola.png"
 import CodeGame from "../images/main/computers.png"
 import Layout from "../components/layout"
@@ -23,11 +23,11 @@ const IndexPage = () => {
       <Seo title="Home" />
       <div className="home">
         <div className="img-grid">
-          <Link to="/clock">
-            <div className="img-cloud img-top" data-aos="fade-up">
-              <img src={Clouds} alt="pomerado clock" />
-              <Link to="/clock" className="img-link">
-                TicTac
+          <Link to="/quiz">
+            <div className="img-magic img-top " data-aos="fade-up">
+              <img src={CodeGame} alt="" />
+              <Link to="/quiz" className="img-link">
+                NewsPaper
               </Link>
             </div>
           </Link>
@@ -41,11 +41,20 @@ const IndexPage = () => {
             </div>
           </Link>
 
-          <Link to="/project">
-            <div className="img-cool img-top img-small" data-aos="fade-up">
-              <img src={Mrcool} alt="illustration" />
-              <Link to="/project" className="img-link">
-                Illustrations
+          <Link to="/plantbud">
+            <div className="img-plant img-top img-small" data-aos="fade-up">
+              <img src={PlantBud} alt="" />
+              <Link to="/plantbud" className="img-link">
+                PlantBud
+              </Link>
+            </div>
+          </Link>
+
+          <Link to="/clock">
+            <div className="img-cloud img-top img-small" data-aos="fade-up">
+              <img src={Clouds} alt="pomerado clock" />
+              <Link to="/clock" className="img-link">
+                TicTac
               </Link>
             </div>
           </Link>
@@ -55,33 +64,6 @@ const IndexPage = () => {
               <img src={News} alt="" />
               <Link to="/news" className="img-link">
                 NewsAPI
-              </Link>
-            </div>
-          </Link>
-
-          <Link to="/quiz">
-            <div className="img-magic img-top img-small" data-aos="fade-up">
-              <img src={CodeGame} alt="" />
-              <Link to="/quiz" className="img-link">
-                NewsPaper
-              </Link>
-            </div>
-          </Link>
-
-          <Link to="/plantbud">
-            <div className="img-plant img-top img-small">
-              <img src={PlantBud} alt="" />
-              <Link to="/plantbud" className="img-link">
-                PlantBud
-              </Link>
-            </div>
-          </Link>
-
-          <Link to="/ricola">
-            <div className="img-magic img-top img-small" data-aos="fade-up">
-              <img src={Ricola} alt="" />
-              <Link to="/ricola" className="img-link">
-                Ricola
               </Link>
             </div>
           </Link>
@@ -106,6 +88,24 @@ const IndexPage = () => {
               </Link>
             </div>
           </Link>
+
+          <Link to="/ricola">
+            <div className="img-magic img-top img-small" data-aos="fade-up">
+              <img src={Ricola} alt="" />
+              <Link to="/ricola" className="img-link">
+                Ricola
+              </Link>
+            </div>
+          </Link>
+          
+          <Link to="/project">
+            <div className="img-cool img-top img-small" data-aos="fade-up">
+              <img src={Mrcool} alt="illustration" />
+              <Link to="/project" className="img-link">
+                Illustrations
+              </Link>
+            </div>
+          </Link>
         </div>
         <div className="header-nav-small">
           <nav>
@@ -114,11 +114,11 @@ const IndexPage = () => {
         </div>
       </div>
       <footer>
-      <div className="header-center">
-        <div className="next">
-          <Link to="/about">About/Contact</Link>
+        <div className="header-center">
+          <div className="next">
+            <Link to="/about">About/Contact</Link>
+          </div>
         </div>
-      </div>
       </footer>
     </Layout>
   )

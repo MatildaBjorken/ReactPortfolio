@@ -464,6 +464,10 @@ footer{
     margin-bottom: 2em;
   }
 
+  .header-center {
+    height: 5em;
+}
+
   .internago-one img {
     width: 100%;
   }
@@ -475,5 +479,9 @@ footer{
 
   .internago-last {
     font-size: 0.9rem;
+  }
+
+  footer{
+    display: none;
   }
 }
