@@ -116,7 +116,7 @@ const IndexPage = () => {
       <footer>
       <div className="header-center">
         <div className="next">
-          <Link to="/news">About/Contact</Link>
+          <Link to="/about">About/Contact</Link>
         </div>
       </div>
       </footer>
