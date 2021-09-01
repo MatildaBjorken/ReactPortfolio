@@ -8,7 +8,10 @@ export default function Layout({ children }) {
   return (
     <>
       <title>Matilda Björk</title>
-      <meta name="description" content="Matilda Björk, creative developer based in Stockholm, Sweden." />
+      <meta
+        name="description"
+        content="Matilda Björk, creative developer based in Stockholm, Sweden."
+      />
       <Cursor />
       <Header />
       {children}
