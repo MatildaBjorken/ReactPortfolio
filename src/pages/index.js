@@ -1,13 +1,13 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
-import Mrcool from "../images/nunu.png"
-import Clouds from "../images/cloud-middle.png"
+import Mrcool from "../images/main/nunu.png"
+import Clouds from "../images/main/clock.png"
 import Cow from "../images/main/rocket.png"
 import Internago from "../images/main/mobile.png"
 import News from "../images/mini-blog.png"
 import PlantBud from "../images/budplant.png"
 import Magic from "../images/main/mini-projects.png"
-import Ricola from "../images/mini-ricola.png"
+import Ricola from "../images/main/filippa.png"
 import CodeGame from "../images/main/computers.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -24,7 +24,7 @@ const IndexPage = () => {
       <div className="home">
         <div className="img-grid">
           <Link to="/quiz">
-            <div className="img-magic img-top " data-aos="fade-up">
+            <div className="img-internago img-top " data-aos="fade-up">
               <img src={CodeGame} alt="" />
               <Link to="/quiz" className="img-link">
                 NewsPaper

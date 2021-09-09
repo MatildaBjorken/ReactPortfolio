@@ -1,11 +1,9 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
-import Press from "../images/clock/cloud-ipad.png"
-import Laptop from "../images/clock/cloud-laptop.png"
-import Mobile from "../images/clock/cloud-phone.png"
-import NewIpad from "../images/clock/new-ipad.png"
-import NewPhone from "../images/clock/new-phone.png"
-import NewLaptop from "../images/clock/new-laptop.png"
+import Laptop from "../images/clock/computer.png"
+import Mobile from "../images/clock/phone.png"
+import NewPhone from "../images/clock/phone-old.png"
+import NewLaptop from "../images/clock/computer-old.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Aos from "aos"
@@ -59,11 +57,6 @@ const PageOne = () => {
           <a className="link-a" href="https://tictack.netlify.app/">
             link to the new website
           </a>
-        </div>
-
-        <div className="illustrations-images ">
-          <img className="" src={Press} data-aos="fade-up" />
-          <img className="" src={NewIpad} data-aos="fade-up" />
         </div>
 
         <div className="illustrations-images ">
