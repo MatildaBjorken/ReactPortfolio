@@ -2,10 +2,10 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import RicolaMain from "../images/ricola/desktop-main.png"
+import RicolaMain from "../images/ricola/filippa.png"
 import Main from "../images/ricola/tilted-info.png"
 import Sidebar from "../images/ricola/tilted-sidebar.png"
-import Info from "../images/ricola/ricola-desktop-double.png"
+import Info from "../images/ricola/computers.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
@@ -22,9 +22,7 @@ const PageOne = () => {
             <h3>Project Desctiption</h3>
             <br></br>
             <p>
-              A project between UX and Frontend students at Hyper Island where
-              we developed a part of a website for Ricola that highlights their
-              ecological footsteps and how they are sustainable.
+              I created a clients portfolio page.
             </p>
           </div>
 
@@ -34,9 +32,13 @@ const PageOne = () => {
             <p>
               Gatsby
               <br></br>
-              Illustrator
+              Netlify
               <br></br>
               Figma
+              <br></br>
+              Gsap
+              <br></br>
+              graphQL
             </p>
           </div>
         </div>
@@ -45,12 +47,7 @@ const PageOne = () => {
           <img src={RicolaMain} alt="the game" data-aos="fade-up" />
         </div>
 
-        <div className="illustrations-images ">
-          <img src={Main} alt="the game starts" data-aos="fade-up" />
-          <img src={Sidebar} alt="the highscores" data-aos="fade-up" />
-        </div>
-
-        <div className="illustrations-last-one">
+        <div className="illustrations-last-one" data-aos="fade-up">
           <img src={Info} />
         </div>
 
