@@ -92,12 +92,12 @@ const IndexPage = () => {
           <Link to="/ricola">
             <div className="img-magic img-top img-small" data-aos="fade-up">
               <img src={Ricola} alt="" />
-              <Link to="/ricola" className="img-link">
+              <Link to="/atelier" className="img-link">
                 Atelier
               </Link>
             </div>
           </Link>
-          
+
           <Link to="/project">
             <div className="img-cool img-top img-small" data-aos="fade-up">
               <img src={Mrcool} alt="illustration" />

@@ -3,8 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import RicolaMain from "../images/ricola/filippa.png"
-import Main from "../images/ricola/tilted-info.png"
-import Sidebar from "../images/ricola/tilted-sidebar.png"
+import Phones from "../images/ricola/phones.png"
 import Info from "../images/ricola/computers.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -47,8 +46,9 @@ const PageOne = () => {
           <img src={RicolaMain} alt="the game" data-aos="fade-up" />
         </div>
 
-        <div className="illustrations-last-one" data-aos="fade-up">
-          <img src={Info} />
+        <div className="illustrations-images illustrations-last-two ">
+          <img src={Info} alt="the game starts" data-aos="fade-up" />
+          <img src={Phones} alt="the highscores" data-aos="fade-up" />
         </div>
 
         <div className="header-center">
