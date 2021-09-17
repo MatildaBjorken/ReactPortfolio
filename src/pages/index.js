@@ -89,7 +89,7 @@ const IndexPage = () => {
             </div>
           </Link>
 
-          <Link to="/ricola">
+          <Link to="/atelier">
             <div className="img-magic img-top img-small" data-aos="fade-up">
               <img src={Ricola} alt="" />
               <Link to="/atelier" className="img-link">

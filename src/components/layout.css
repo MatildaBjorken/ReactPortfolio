@@ -41,8 +41,8 @@ header {
 }
 
 .cursor {
-  width: 25px;
-  height: 25px;
+  width: 2rem;
+  height: 2rem;
   transform: translate(10px, 10px);
   background-color: black;
   border-radius: 100%;

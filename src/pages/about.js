@@ -88,9 +88,7 @@ const SecondPage = () => {
             <p>
               Adobe creative Suite
               <br></br> <br></br>
-              HTML, CSS and JavaScript
-              <br></br> <br></br>
-              Knowledge of Python, PHP, React
+              HTML, CSS, JavaScript and React
               <br></br> <br></br>
               UX/UI
               <br></br> <br></br>
