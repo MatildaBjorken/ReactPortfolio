@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import First from "../images/plantbud/first.png"
+import First from "../images/plantbud/phones.png"
 import About from "../images/plantbud/about.png"
 import Shop from "../images/plantbud/shop.png"
 import Signin from "../images/plantbud/signin.png"
@@ -59,14 +59,6 @@ const PageOne = () => {
         <div className="illustrations-images ">
           <img className="" src={About} data-aos="fade-up" />
           <img className="" src={Shop} data-aos="fade-up" />
-        </div>
-
-        <div className="internago">
-          <img className="" src={Signin} data-aos="fade-up" />
-        </div>
-
-        <div className="illustrations-last">
-          <img src={Mobile} data-aos="fade-up" />
         </div>
 
         <div className="header-center">

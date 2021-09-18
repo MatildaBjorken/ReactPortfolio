@@ -14,7 +14,7 @@ const PageOne = () => {
   }, [])
   return (
     <Layout>
-      <Seo title="Ricola" />
+      <Seo title="Atelier" />
       <div className="illustrations">
         <div className="illustrations-text">
           <div data-aos="fade-up">

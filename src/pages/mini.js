@@ -4,6 +4,7 @@ import Magic from "../images/mini/rhytm.png"
 import Cubes from "../images/mini/cube-device.png"
 import Font from "../images/mini/blackjack.png"
 import Egg from "../images/mini/egg.png"
+import Crowd from "../images/mini/crowd.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Aos from "aos"
@@ -22,9 +23,8 @@ const PageOne = () => {
             <h3>Project Desctiption</h3>
             <br></br>
             <p>
-              Be creative with code! Some small projects I have done with the
-              desired outcome to make them look like graphic posters! I have
-              explored multiple libraries and tools.
+              Being creative with code! Some small projects I have done with the
+              desired outcome to make them look like graphic/interactive posters! I have explored multiple libraries and tools.
             </p>
           </div>
 
@@ -47,6 +47,8 @@ const PageOne = () => {
               anime js
               <br></br>
               gsap
+              <br></br>
+              canvas
             </p>
           </div>
         </div>
@@ -67,8 +69,12 @@ const PageOne = () => {
             link to the rhythm site
           </a>
           <br></br> <br></br>
-          <a className="link-a" href="https://matildabjorken.github.io/fonts/">
-            link to the font site
+          <a className="link-a" href="https://matildabjorken.github.io/game1/">
+            link to the blackjack game
+          </a>
+          <br></br> <br></br>
+          <a className="link-a" href="https://matildabjorken.github.io/crowd/">
+            link to the crowd
           </a>
         </div>
 
@@ -80,6 +86,10 @@ const PageOne = () => {
         <div className="illustrations-images illustrations-last-two">
           <img src={Magic} data-aos="fade-up" />
           <img src={Egg} data-aos="fade-up" />
+        </div>
+
+        <div className="illustrations-last">
+          <img src={Crowd} data-aos="fade-up" />
         </div>
 
         <div className="header-center">

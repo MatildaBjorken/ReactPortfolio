@@ -133,6 +133,18 @@ const SecondPage = () => {
               August 2020 - June 2022
             </p>
           </div>
+
+          <div data-aos="fade-up">
+            <h3>Clients I have worked with</h3>
+            <br></br>
+            <p>
+              Internago AB
+              <br></br> <br></br>
+              Ricola
+              <br></br> <br></br>
+              SANDROCK TOURISM AB
+            </p>
+          </div>
         </div>
 
         <div className="about-letter">
