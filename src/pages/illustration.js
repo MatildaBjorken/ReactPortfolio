@@ -2,9 +2,11 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Bild1 from "../images/illustrations/frame-first.png"
-import Bild2 from "../images/illustrations/frame-second.png"
-import Bild3 from "../images/illustrations/frame-food.png"
+import Bild1 from "../images/illustrations/face-smash.png"
+import Bild2 from "../images/illustrations/face-lips.png"
+import Bild3 from "../images/illustrations/face2.png"
+import Bild4 from "../images/illustrations/frame-first.png"
+import Bild5 from "../images/illustrations/frame-second.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
@@ -20,13 +22,13 @@ const PageOne = () => {
           <div data-aos="fade-up">
             <h3>Project Desctiption</h3>
             <br></br>
-            <p>Just some of the paintings I've made</p>
+            <p>Just some of the illustrations I've made</p>
           </div>
 
           <div data-aos="fade-up">
             <h3>What was used?</h3>
             <br></br>
-            <p> Acrylic paint</p>
+            <p> Illustrator</p>
           </div>
         </div>
 
