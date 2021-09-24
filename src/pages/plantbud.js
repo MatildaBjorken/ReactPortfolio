@@ -18,7 +18,7 @@ const PageOne = () => {
       <div className="illustrations">
         <div className="illustrations-text">
           <div data-aos="fade-up">
-            <h3>Project Desctiption</h3>
+            <h3>Project Description</h3>
             <br></br>
             <p>
               This project was a 36 hour sprint where I interpreted one of my

@@ -19,7 +19,7 @@ const PageOne = () => {
       <div className="illustrations">
         <div className="illustrations-text">
           <div data-aos="fade-up">
-            <h3>Project Desctiption</h3>
+            <h3>Project Description</h3>
             <br></br>
             <p>
               I worked with both the frontend and the backend where I created my
