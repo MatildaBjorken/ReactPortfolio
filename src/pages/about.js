@@ -35,9 +35,9 @@ const SecondPage = () => {
             <br></br>
             <br></br>
             Therefore, I am keen to gain more experience in the field. For this
-            reason, I am looking for an internship as well as a temporary
-            project to contribute to. In return, I would offer my full
-            commitment, be an optimistic and ambitious addition to your team!
+            reason, I am looking for a temporary project to contribute to. In
+            return, I would offer my full commitment, be an optimistic and
+            ambitious addition to your team!
           </p>
         </div>
 
@@ -51,34 +51,19 @@ const SecondPage = () => {
               Nationalmuseum, October 2018 - Ongoing
               <br></br>
               <br></br>
-              Studio host
-              <br></br>
-              Kulturfestivalen, August 2019
-              <br></br>
-              <br></br>
-              Teacher assistnat
-              <br></br>
-              Skapande skola, February 2020 - Ongoing
-              <br></br>
-              <br></br>
-              Audience host
-              <br></br>
-              Långsjö Teater, Mars 2020 - April 2020
-              <br></br>
-              <br></br>
-              Receptionist
-              <br></br>
-              Södersjukhuset, May 2020 - Ongoing
-              <br></br>
-              <br></br>
-              Internship
-              <br></br>
-              Gunila Axen Design, June -July 2020
-              <br></br>
-              <br></br>
               Frontend Developer
               <br></br>
               Internago, December 2021 - Ongoing
+              <br></br>
+              <br></br>
+              Frontent Developer Internship
+              <br></br>
+              Sphinxly, September 2021 - Ongoing
+              <br></br>
+              <br></br>
+              Freelance
+              <br></br>
+              July 2021 - Ongoing
             </p>
           </div>
 
@@ -86,13 +71,11 @@ const SecondPage = () => {
             <h3>Skills</h3>
             <br></br>
             <p>
-              Adobe creative Suite
-              <br></br> <br></br>
               HTML, CSS, JavaScript and React
               <br></br> <br></br>
               UX/UI
               <br></br> <br></br>
-              Web design
+              Web design (Adobe creative Suite)
               <br></br> <br></br>
               Web development
               <br></br> <br></br>
@@ -103,8 +86,6 @@ const SecondPage = () => {
               Teamwork and Collaboration skills
               <br></br> <br></br>
               Fluent in Swedish and English
-              <br></br> <br></br>
-              Driving license
               <br></br> <br></br>
               Happy and optimistic ;-)
             </p>
@@ -131,6 +112,10 @@ const SecondPage = () => {
               Frontend Developer
               <br></br>
               August 2020 - June 2022
+              <br></br> <br></br>
+              The Complete JavaScript Course 2022 - Udemy
+              <br></br>
+              2020 - 2021
             </p>
           </div>
 
