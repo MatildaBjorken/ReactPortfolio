@@ -1,10 +1,11 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
-import Magic from "../images/mini/rhytm.png"
-import Cubes from "../images/mini/cube-device.png"
-import Font from "../images/mini/blackjack.png"
-import Egg from "../images/mini/egg.png"
-import Crowd from "../images/mini/crowd.png"
+import Magic from "../images/mini/egg-screen.png"
+import Cubes from "../images/mini/rhytm-phone.png"
+import Font from "../images/mini/rhytm-screen.png"
+import Egg from "../images/mini/crowd-screen.png"
+import EggPhone from "../images/mini/egg-phone.png"
+import CrowdPhone from "../images/mini/crowd-phone.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Aos from "aos"
@@ -24,7 +25,8 @@ const PageOne = () => {
             <br></br>
             <p>
               Being creative with code! Some small projects I have done with the
-              desired outcome to make them look like graphic/interactive posters! I have explored multiple libraries and tools.
+              desired outcome to make them look like graphic/interactive
+              posters! I have explored multiple libraries and tools.
             </p>
           </div>
 
@@ -85,11 +87,12 @@ const PageOne = () => {
 
         <div className="illustrations-images illustrations-last-two">
           <img src={Magic} data-aos="fade-up" />
-          <img src={Egg} data-aos="fade-up" />
+          <img src={EggPhone} data-aos="fade-up" />
         </div>
 
-        <div className="illustrations-last">
-          <img src={Crowd} data-aos="fade-up" />
+        <div className="illustrations-images illustrations-last-two">
+          <img src={Egg} data-aos="fade-up" />
+          <img src={CrowdPhone} data-aos="fade-up" />
         </div>
 
         <div className="header-center">
@@ -99,7 +102,7 @@ const PageOne = () => {
 
           <div className="next">
             <nav>
-              <Link to="/illustration">Next</Link>
+              <Link to="/clock">Next</Link>
             </nav>
           </div>
         </div>

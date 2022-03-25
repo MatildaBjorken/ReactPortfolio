@@ -1,9 +1,9 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
-import Mobile from "../images/internago/mobile.png"
-import Section1 from "../images/internago/computer-phones.png"
-import Section2 from "../images/internago/ipad.png"
-import Internago from "../images/internago/computers.png"
+import Internago from "../images/internago/internago-phones.png"
+import Tablets from "../images/internago/internago-tablets.png"
+import Tablets2 from "../images/internago/internago-tablets-3.png"
+import Section2 from "../images/internago/internago-laptop.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -33,11 +33,13 @@ const PageOne = () => {
             <h3>What was used?</h3>
             <br></br>
             <p>
-              Gatsby with Gatsby-Starter-Blog-Template
+              Gatsby 
               <br></br>
               React
               <br></br>
               Netlify CMS
+              <br></br>
+              GraphQL
               <br></br>
               Responsive Design
               <br></br>
@@ -56,11 +58,11 @@ const PageOne = () => {
         </div>
 
         <div className="internago-illustrations">
-          <img className="" src={Mobile} data-aos="fade-up" />
-          <img className="" src={Section1} data-aos="fade-up" />
+          <img className="" src={Tablets} data-aos="fade-up" />
+          <img className="" src={Tablets2} data-aos="fade-up" />
         </div>
 
-        <div className="illustrations-last img">
+        <div className=" img">
           <img src={Section2} data-aos="fade-up" />
         </div>
 
@@ -71,7 +73,7 @@ const PageOne = () => {
 
           <div className="next">
             <nav>
-              <Link to="/project">Next</Link>
+              <Link to="/anrecon">Next</Link>
             </nav>
           </div>
         </div>

@@ -1,14 +1,17 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Mrcool from "../images/main/nunu.png"
-import Clouds from "../images/main/clock.png"
+import Clouds from "../images/clock/pomodoro-phones.png"
 import Cow from "../images/main/rocket.png"
-import Internago from "../images/main/mobile.png"
-import News from "../images/mini-blog.png"
+import Internago from "../images/internago/internago-phones.png"
+import News from "../images/news/news-desktop.png"
 import PlantBud from "../images/budplant.png"
-import Magic from "../images/main/mini-projects.png"
+import Magic from "../images/mini/rhytm-screen.png"
 import Ricola from "../images/main/filippa.png"
-import CodeGame from "../images/main/computers.png"
+import Trequipment from "../images/trequipment/trequipment-screen-tablet.png"
+import Hagern from "../images/hagern/hagern-tablets-phones.png"
+import Ruth from "../images/ruth/ruth-desktop-laptop.png"
+import Anrecon from "../images/anrecon/anrecon-tablets.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Aos from "aos"
@@ -22,7 +25,7 @@ const IndexPage = () => {
 
   const breakpointColumnsObj = {
     default: 2,
-    700: 1,
+    768: 1,
   }
   return (
     <Layout>
@@ -34,21 +37,13 @@ const IndexPage = () => {
             className="my-masonry-grid"
             columnClassName="my-masonry-grid_column"
           >
-            <Link to="/quiz">
-              <div className="img-internago img-top ">
-                <img src={CodeGame} alt="" data-aos="fade-up" />
-                <Link to="/quiz" className="img-link">
-                  NewsPaper
+            <Link to="/ruth">
+              <div className="img-plant img-top img-small">
+                <img src={Ruth} alt="" data-aos="fade-up" />
+                <Link to="/ruth" className="img-link">
+                  HotelRuth
                 </Link>
-              </div>
-            </Link>
-
-            <Link to="/mini">
-              <div className="img-magic img-top img-small">
-                <img src={Magic} alt="" data-aos="fade-up" />
-                <Link to="/mini" className="img-link">
-                  MiniProjects
-                </Link>
+                <p className="year">2022</p>
               </div>
             </Link>
 
@@ -62,33 +57,27 @@ const IndexPage = () => {
                 <Link to="/internago" className="img-link">
                   Internago
                 </Link>
+                <p className="year">2022</p>
               </div>
             </Link>
 
-            <Link to="/illustration">
-              <div className="img-api img-top  img-small">
-                <img src={Cow} alt="" data-aos="fade-up" />
-                <Link to="/illustration" className="img-link">
-                  Paintings
+            <Link to="/anrecon">
+              <div className="img-internago img-top ">
+                <img src={Anrecon} alt="" data-aos="fade-up" />
+                <Link to="/anrecon" className="img-link">
+                  Anrecon
                 </Link>
+                <p className="year">2022</p>
               </div>
             </Link>
 
-            <Link to="/plantbud">
-              <div className="img-plant img-top img-small">
-                <img src={PlantBud} alt="" data-aos="fade-up" />
-                <Link to="/plantbud" className="img-link">
-                  PlantBud
-                </Link>
-              </div>
-            </Link>
-
-            <Link to="/atelier">
+            <Link to="/mini">
               <div className="img-magic img-top img-small">
-                <img src={Ricola} alt="" data-aos="fade-up" />
-                <Link to="/atelier" className="img-link">
-                  Atelier
+                <img src={Magic} alt="" data-aos="fade-up" />
+                <Link to="/mini" className="img-link">
+                  MiniProjects
                 </Link>
+                <p className="year">2021</p>
               </div>
             </Link>
 
@@ -96,26 +85,39 @@ const IndexPage = () => {
               <div className="img-cloud img-top img-small">
                 <img src={Clouds} alt="pomerado clock" data-aos="fade-up" />
                 <Link to="/clock" className="img-link">
-                  TicTac
+                  Pomodoro
                 </Link>
+                <p className="year">2021</p>
               </div>
             </Link>
 
-            <Link to="/project">
-              <div className="img-cool img-top img-small">
-                <img src={Mrcool} alt="illustration" data-aos="fade-up" />
-                <Link to="/project" className="img-link">
-                  Illustrations
+            <Link to="/trequipment">
+              <div className="img-internago img-top ">
+                <img src={Trequipment} alt="" data-aos="fade-up" />
+                <Link to="/trequipment" className="img-link">
+                  Trequipment
                 </Link>
+                <p className="year">2022</p>
+              </div>
+            </Link>
+
+            <Link to="/hagern">
+              <div className="img-magic img-top img-small">
+                <img src={Hagern} alt="" data-aos="fade-up" />
+                <Link to="/hagern" className="img-link">
+                  Hägern
+                </Link>
+                <p className="year">2021</p>
               </div>
             </Link>
 
             <Link to="/news">
-              <div className="img-news img-top img-small img-last">
+              <div className="img-internago img-top ">
                 <img src={News} alt="" data-aos="fade-up" />
                 <Link to="/news" className="img-link">
-                  NewsAPI
+                  NewsPaper
                 </Link>
+                <p className="year">2021</p>
               </div>
             </Link>
           </Masonry>

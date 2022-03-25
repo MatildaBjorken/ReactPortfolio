@@ -1,9 +1,6 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
-import First from "../images/news/landing-page.png"
-import Edit from "../images/news/edit.png"
-import Loadmore from "../images/news/load.png"
-import Bottom from "../images/news/bottom.png"
+import News from "../images/news/news-desktop.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Aos from "aos"
@@ -59,16 +56,7 @@ const PageOne = () => {
         </div>
 
         <div className="internago">
-          <img className="" src={First} data-aos="fade-up" />
-        </div>
-
-        <div className="illustrations-images ">
-          <img className="" src={Edit} data-aos="fade-up" />
-          <img className="" src={Loadmore} data-aos="fade-up" />
-        </div>
-
-        <div className="illustrations-last">
-          <img src={Bottom} data-aos="fade-up" />
+          <img className="" src={News} data-aos="fade-up" />
         </div>
 
         <div className="header-center">

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
-import Laptop from "../images/clock/computer.png"
-import Mobile from "../images/clock/phone.png"
-import NewPhone from "../images/clock/phone-old.png"
+import Phones from "../images/clock/pomodoro-phones.png"
+import ScreenTablet2 from "../images/clock/pomodoro-screen-tablet2.png"
+import ScreenTablet from "../images/clock/pomodoro-screen-tablet.png"
 import NewLaptop from "../images/clock/computer-old.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -59,14 +59,13 @@ const PageOne = () => {
           </a>
         </div>
 
-        <div className="illustrations-images ">
-          <img className="" src={Mobile} data-aos="fade-up" />
-          <img className="" src={NewPhone} data-aos="fade-up" />
+        <div className="internago">
+          <img src={Phones} alt="the game" data-aos="fade-up" />
         </div>
 
         <div className="illustrations-images illustrations-last-two">
-          <img className="" src={Laptop} data-aos="fade-up" />
-          <img className="" src={NewLaptop} data-aos="fade-up" />
+          <img className="" src={ScreenTablet} data-aos="fade-up" />
+          <img className="" src={ScreenTablet2} data-aos="fade-up" />
         </div>
 
         <div className="header-center">
