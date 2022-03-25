@@ -75,7 +75,7 @@ const PageOne = () => {
 
           <div className="next">
             <nav>
-              <Link to="/internago">Next</Link>
+              <Link to="/news">Next</Link>
             </nav>
           </div>
         </div>
