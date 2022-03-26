@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Trequipment from "../images/trequipment/trequipment-screen-tablet.png"
+import Phones from "../images/trequipment/trequipment-phones.png"
+import Desktop from "../images/trequipment/trequipment-desktop.png"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -13,7 +15,7 @@ const PageOne = () => {
   }, [])
   return (
     <Layout>
-      <Seo title="News app" />
+      <Seo title="Trequipment" />
       <div className="illustrations">
         <div className="illustrations-text">
           <div data-aos="fade-up">
@@ -53,6 +55,11 @@ const PageOne = () => {
 
         <div className="internago">
           <img src={Trequipment} alt="the game" data-aos="fade-up" />
+        </div>
+
+        <div className="illustrations-images illustrations-last-two ">
+          <img src={Phones} alt="the game starts" data-aos="fade-up" />
+          <img src={Desktop} alt="the highscores" data-aos="fade-up" />
         </div>
 
         <div className="header-center">

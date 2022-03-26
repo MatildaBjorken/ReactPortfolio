@@ -15,7 +15,7 @@ const PageOne = () => {
   }, [])
   return (
     <Layout>
-      <Seo title="News app" />
+      <Seo title="Ruth" />
       <div className="illustrations">
         <div className="illustrations-text">
           <div data-aos="fade-up">

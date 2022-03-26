@@ -1,9 +1,8 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Hagern from "../images/hagern/hagern-tablets-phones.png"
-import ScreenTablet2 from "../images/clock/pomodoro-screen-tablet2.png"
+import ScreenTablet2 from "../images/hagern/hagern-phone-screen.png"
 import ScreenTablet from "../images/clock/pomodoro-screen-tablet.png"
-import NewLaptop from "../images/clock/computer-old.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Aos from "aos"
@@ -15,7 +14,7 @@ const PageOne = () => {
   }, [])
   return (
     <Layout>
-      <Seo title="Clock" />
+      <Seo title="Hagern" />
       <div className="home"></div>
       <div className="illustrations">
         <div className="illustrations-text">
@@ -64,7 +63,7 @@ const PageOne = () => {
         </div>
 
         <div className="illustrations-images illustrations-last-two">
-          <img className="" src={ScreenTablet} data-aos="fade-up" />
+          
           <img className="" src={ScreenTablet2} data-aos="fade-up" />
         </div>
 
