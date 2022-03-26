@@ -22,10 +22,10 @@ const PageOne = () => {
             <h3>Project Description</h3>
             <br></br>
             <p>
-              A simple News App with news fetched from New York Times API, where
-              you can search for articles and read about the top rated articles.
-              I designed and prototyped the app in Figma and then stared to
-              develop it in React. Enjoy!
+              I worked with our designers to create a new design for Anrecon. I
+              then coded the invite website while having regular communication
+              with the designers, SEO and product owners. The site went through
+              several phases to suit the clients needs.
             </p>
           </div>
 

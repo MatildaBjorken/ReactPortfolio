@@ -22,10 +22,10 @@ const PageOne = () => {
             <h3>Project Description</h3>
             <br></br>
             <p>
-              A simple News App with news fetched from New York Times API, where
-              you can search for articles and read about the top rated articles.
-              I designed and prototyped the app in Figma and then stared to
-              develop it in React. Enjoy!
+              Hotel Ruth’s official site that I remade with the same previous
+              design but I refactored the code and structure and moved it to the
+              latest version of my internships CMS. I integrated an English
+              version as well.
             </p>
           </div>
 

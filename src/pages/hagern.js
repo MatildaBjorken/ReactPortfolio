@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Hagern from "../images/hagern/hagern-tablets-phones.png"
 import ScreenTablet2 from "../images/hagern/hagern-phone-screen.png"
-import ScreenTablet from "../images/clock/pomodoro-screen-tablet.png"
+import Screen from "../images/hagern/hagern-screen.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Aos from "aos"
@@ -63,8 +63,8 @@ const PageOne = () => {
         </div>
 
         <div className="illustrations-images illustrations-last-two">
-          
           <img className="" src={ScreenTablet2} data-aos="fade-up" />
+          <img className="" src={Screen} data-aos="fade-up" />
         </div>
 
         <div className="header-center">
