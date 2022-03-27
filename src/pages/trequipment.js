@@ -22,10 +22,10 @@ const PageOne = () => {
             <h3>Project Description</h3>
             <br></br>
             <p>
-              A simple News App with news fetched from New York Times API, where
-              you can search for articles and read about the top rated articles.
-              I designed and prototyped the app in Figma and then stared to
-              develop it in React. Enjoy!
+              I got asked to help with the coding for TR Equipment and make
+              charges based on the designers input. It was a huge learning since
+              I got to read and understand others code and adapt my code after
+              it.
             </p>
           </div>
 

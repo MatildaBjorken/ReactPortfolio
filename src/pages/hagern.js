@@ -22,13 +22,8 @@ const PageOne = () => {
             <h3>Project Description</h3>
             <br></br>
             <p>
-              The Pomodoro clock with on the left was my first real coding
-              project. I focused a lot on the logic in Javascript and to make
-              the result more visibly pleasing, I integrated this neumorphism
-              style.
-              <br></br> <br></br>The Pomodoro clock on the right was made half a
-              year lather using React, Exploring hooks, integrating sound in
-              just the span of one week.
+              I created a new site for the client from scratch with new content
+              and a new booking system.
             </p>
           </div>
 

@@ -1,6 +1,8 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import News from "../images/news/news-desktop.png"
+import Screen from "../images/news/news-screen.png"
+import TabletPhone from "../images/news/news-phone-tablet.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Aos from "aos"
@@ -19,10 +21,10 @@ const PageOne = () => {
             <h3>Project Description</h3>
             <br></br>
             <p>
-              I worked with both the frontend and the backend where I created my
-              own REST API that I used to connect the frontend and the backend.
-              For the frontend, I created this website where users dynamically
-              can add, edit and delete posts!
+              A simple News App with news fetched from New York Times API, where
+              you can search for articles and read about the top rated articles.
+              I designed and prototyped the app in Figma and then stared to
+              develop it in React. Enjoy!
             </p>
           </div>
 
@@ -40,23 +42,18 @@ const PageOne = () => {
         </div>
 
         <div className="link-git" data-aos="fade-up">
-          <a
-            className="link-a"
-            href="https://github.com/MatildaBjorken/finalFrontend"
-          >
-            link to the source code (frontend)
-          </a>
-          <br></br> <br></br>
-          <a
-            className="link-a"
-            href="https://github.com/MatildaBjorken/CMSbackend"
-          >
-            link to the source code (backend)
+          <a className="link-a" href="https://matildabjorken.github.io/news/">
+            link to the site
           </a>
         </div>
 
         <div className="internago">
           <img className="" src={News} data-aos="fade-up" />
+        </div>
+
+        <div className="illustrations-images ">
+          <img className="" src={Screen} data-aos="fade-up" />
+          <img className="" src={TabletPhone} data-aos="fade-up" />
         </div>
 
         <div className="header-center">

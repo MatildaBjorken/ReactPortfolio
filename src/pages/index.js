@@ -5,9 +5,8 @@ import Clouds from "../images/clock/pomodoro-phones.png"
 import Cow from "../images/main/rocket.png"
 import Internago from "../images/internago/internago-phones.png"
 import News from "../images/news/news-desktop.png"
-import PlantBud from "../images/budplant.png"
 import Magic from "../images/mini/rhytm-screen.png"
-import Ricola from "../images/main/filippa.png"
+import Juristhuset from "../images/juristhuset.png"
 import Trequipment from "../images/trequipment/trequipment-screen-tablet.png"
 import Hagern from "../images/hagern/hagern-tablets-phones.png"
 import Ruth from "../images/ruth/ruth-desktop-laptop.png"
@@ -118,6 +117,16 @@ const IndexPage = () => {
                   NewsPaper
                 </Link>
                 <p className="year">2021</p>
+              </div>
+            </Link>
+
+            <Link to="">
+              <div className="img-internago img-top ">
+                <img src={Juristhuset} alt="" data-aos="fade-up" />
+                <Link to="" className="img-link">
+                  Soon
+                </Link>
+                <p className="year">2022</p>
               </div>
             </Link>
           </Masonry>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
-import Me from "../images/me.png"
+import Me from "../images/me-new.png"
 import Letter from "../images/newletter.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -35,7 +35,7 @@ const SecondPage = () => {
             <br></br>
             <br></br>
             Therefore, I am keen to gain more experience in the field. For this
-            reason, I am looking for a temporary project to contribute to. In
+            reason, I am looking for a project or a job to contribute to. In
             return, I would offer my full commitment, be an optimistic and
             ambitious addition to your team!
           </p>
@@ -46,24 +46,34 @@ const SecondPage = () => {
             <h3>Work Experience</h3>
             <br></br>
             <p>
-              Assistant educator
+              Frontend Developer - Sphinxly
               <br></br>
-              Nationalmuseum, October 2018 - Ongoing
-              <br></br>
-              <br></br>
-              Frontend Developer
-              <br></br>
-              Internago, December 2021 - Ongoing
+              2021 - Present
               <br></br>
               <br></br>
-              Frontent Developer Internship
+              Graphic designer - Breed
               <br></br>
-              Sphinxly, September 2021 - Ongoing
+              2022
               <br></br>
               <br></br>
-              Freelance
+              Web Developer - SANDROCK TOURISM AB
               <br></br>
-              July 2021 - Ongoing
+              2021 - 2022
+              <br></br>
+              <br></br>
+              Frontend Developer - Internago
+              <br></br>
+              2021 - 2022
+              <br></br>
+              <br></br>
+              Assistant designer - Gunila Axen Design
+              <br></br>
+              2020
+              <br></br>
+              <br></br>
+              Assistant educator - Nationalmuseum
+              <br></br>
+              2018 - Present
             </p>
           </div>
 
@@ -71,21 +81,23 @@ const SecondPage = () => {
             <h3>Skills</h3>
             <br></br>
             <p>
-              HTML, CSS, JavaScript and React
+              HTML, CSS, JavaScript
+              <br></br> <br></br>
+              React
               <br></br> <br></br>
               UX/UI
               <br></br> <br></br>
-              Web design (Adobe creative Suite)
+              Photoshop Illustrator, InDesign
               <br></br> <br></br>
-              Web development
+              Figma
+              <br></br> <br></br>
+              Git
               <br></br> <br></br>
               Attention to Detail
               <br></br> <br></br>
               Creative thinking
               <br></br> <br></br>
-              Teamwork and Collaboration skills
-              <br></br> <br></br>
-              Fluent in Swedish and English
+              Teamwork and Collaboration
               <br></br> <br></br>
               Happy and optimistic ;-)
             </p>
@@ -95,64 +107,60 @@ const SecondPage = () => {
             <h3>Education</h3>
             <br></br>
             <p>
-              Cambridge IGCSE Art and Design
+              HYPER ISLAND
               <br></br>
-              International qualification
+              Frontend Developer
               <br></br>
-              2017
+              2020 - 2022
+              <br></br> <br></br>
+              JavaScript Algorithms and Data Structures - FREECODECAMP
+              <br></br>
+              2021
+              <br></br> <br></br>
+              The Complete JavaScript Course - Udemy
+              <br></br>
+              2020 - 2021
               <br></br> <br></br>
               KULTURAMA
               <br></br>
               Art and Design
               <br></br>
-              August 2017 - June 2020
+              2017 - 2020
               <br></br> <br></br>
-              HYPER ISLAND
+              Cambridge IGCSE Art and Design
               <br></br>
-              Frontend Developer
+              International qualification
               <br></br>
-              August 2020 - June 2022
-              <br></br> <br></br>
-              The Complete JavaScript Course 2022 - Udemy
-              <br></br>
-              2020 - 2021
+              2017
             </p>
           </div>
 
           <div data-aos="fade-up">
-            <h3>Clients I have worked with</h3>
+            <h3>Contact</h3>
             <br></br>
-            <p>
-              Internago AB
-              <br></br> <br></br>
-              Ricola
-              <br></br> <br></br>
-              SANDROCK TOURISM AB
+            <p className="about-contact" data-aos="fade-up">
+              Sweden, Stockholm
+              <br></br>
+              <br></br>
+              +46 70 982 98 30
+              <br></br>
+              <br></br>
+              <a
+                className="about-mail"
+                href="mailto:matilda.bjork@hyperisland.se"
+              >
+                matilda.bjork@hyperisland.se
+              </a>
+              <br></br>
+              <br></br>
+              <a
+                className="about-mail"
+                href="https://github.com/MatildaBjorken"
+              >
+                go to my github!
+              </a>
             </p>
           </div>
-        </div>
-
-        <div className="about-letter">
-          <img src={Letter} alt="illustration of letters" data-aos="fade-up" />
-
-          <p className="about-contact" data-aos="fade-up">
-            Sweden, Stockholm
-            <br></br>
-            +46 70 982 98 30
-            <br></br>
-            <br></br>
-            <a
-              className="about-mail"
-              href="mailto:matilda.bjork@hyperisland.se"
-            >
-              matilda.bjork@hyperisland.se
-            </a>
-            <br></br>
-            <br></br>
-            <a className="about-mail" href="https://github.com/MatildaBjorken">
-              go to my github!
-            </a>
-          </p>
         </div>
 
         <div className="about-link">
