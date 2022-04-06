@@ -1,7 +1,6 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Me from "../images/me-new.png"
-import Letter from "../images/newletter.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 

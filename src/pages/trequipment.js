@@ -35,20 +35,20 @@ const PageOne = () => {
             <p>
               React
               <br></br>
-              CSS
+              SCSS
               <br></br>
-              framer-motion
+              JavaScript
               <br></br>
-              GSAP
+              Jquery
               <br></br>
               Axios
               <br></br>
-              Material-UI
+              CMS
             </p>
           </div>
         </div>
         <div className="link-git" data-aos="fade-up">
-          <a className="link-a" href="https://www.hotelruth.se/">
+          <a className="link-a" href="https://trequipment.easyweb.site">
             link to the site
           </a>
         </div>

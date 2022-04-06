@@ -43,13 +43,8 @@ const PageOne = () => {
         </div>
 
         <div className="link-git" data-aos="fade-up">
-          <a className="link-a" href="https://matildabjorken.github.io/clock/ ">
+          <a className="link-a" href="https://www.hagern.com ">
             link to the old website
-          </a>
-          <br></br>
-          <br></br>
-          <a className="link-a" href="https://tictack.netlify.app/">
-            link to the new website
           </a>
         </div>
 

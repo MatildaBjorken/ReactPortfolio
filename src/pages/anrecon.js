@@ -48,7 +48,7 @@ const PageOne = () => {
           </div>
         </div>
         <div className="link-git" data-aos="fade-up">
-          <a className="link-a" href="https://www.hotelruth.se/">
+          <a className="link-a" href="https://anrecon.easyweb.site">
             link to the site
           </a>
         </div>
