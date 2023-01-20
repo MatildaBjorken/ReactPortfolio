@@ -5,9 +5,8 @@ module.exports = {
     author: `Matilda Björk`,
   },
 
-  
   plugins: [
-
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,8 +23,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#f0f0f0`,
-        theme_color: `#f0f0f0`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
