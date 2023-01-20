@@ -1,58 +1,58 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useRef } from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Bild1 from "../images/illustrations/face-smash.png"
-import Bild2 from "../images/illustrations/face-lips.png"
-import Bild3 from "../images/illustrations/face2.png"
-import Bild4 from "../images/illustrations/frame-first.png"
-import Bild5 from "../images/illustrations/frame-second.png"
-import Aos from "aos"
-import "aos/dist/aos.css"
+
+import star from "../images/star.svg"
+import Tomatoes from "../images/illustrations/tomato.png"
+import Masonry from "react-masonry-css"
 
 const PageOne = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 })
-  }, [])
+  const breakpointColumnsObj = {
+    default: 3,
+    768: 1,
+  }
   return (
     <Layout>
       <Seo title="Illustrations" />
-      <div className="illustrations">
+      <div className="illustrations home">
         <div className="illustrations-text">
-          <div data-aos="fade-up">
+          <div>
             <h3>Project Description</h3>
             <br></br>
+
             <p>Just some of the illustrations I've made</p>
           </div>
 
-          <div data-aos="fade-up">
+          <div>
             <h3>What was used?</h3>
             <br></br>
             <p> Illustrator</p>
           </div>
         </div>
-
-        <div className="illustrations-images ">
-          <img className="" src={Bild1} data-aos="fade-up" />
-          <img className="" src={Bild2} data-aos="fade-up" />
-        </div>
-
-        <div className="illustrations-last">
-          <img src={Bild3} data-aos="fade-up" />
-        </div>
-
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column"
+        >
+          <div className=" ">
+            <img className="" src={Tomatoes} />
+          </div>
+        </Masonry>
         <div className="header-center">
           <div className="last-about">
             <Link to="/news">About/Contact</Link>
           </div>
-
-          <div className="next">
-            <nav>
-              <Link to="/clock">Next</Link>
-            </nav>
-          </div>
         </div>
       </div>
+      <footer>
+        <div className="header-center">
+          <div className="next ">
+            <img src={star} />
+            <Link to="/about">About/Contact</Link>
+          </div>
+        </div>
+      </footer>
     </Layout>
   )
 }

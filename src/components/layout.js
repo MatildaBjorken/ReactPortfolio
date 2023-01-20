@@ -3,6 +3,8 @@ import Header from "./header"
 import Cursor from "./dot"
 
 import "./layout.css"
+import "./landingPage.scss"
+import "./header.scss"
 
 export default function Layout({ children }) {
   return (
@@ -13,8 +15,10 @@ export default function Layout({ children }) {
         content="Matilda Björk, creative developer based in Stockholm, Sweden."
       />
       <Cursor />
-      <Header />
-      {children}
+      <div className="main-wrap">
+        <Header />
+        {children}
+      </div>
     </>
   )
 }

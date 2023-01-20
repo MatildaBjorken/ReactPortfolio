@@ -1,0 +1,92 @@
+.about-flex {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  position: relative;
+  overflow: hidden;
+
+  .about-header {
+    position: relative;
+    overflow: hidden;
+
+    h2 {
+      font-family: aktiv-grotesk-extended, sans-serif;
+      letter-spacing: 8px;
+      width: 100%;
+      //   height: 90px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2rem;
+
+      @media only screen and (max-width: 600px) {
+        letter-spacing: 4px;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  p {
+    line-height: 2.5;
+
+    @media only screen and (max-width: 600px) {
+      line-height: 2;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    display: block;
+    margin-top: 0;
+  }
+
+  img {
+    opacity: 0;
+    width: 20%;
+    @media only screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+
+  .about-flex-first {
+    margin-bottom: 3rem;
+  }
+}
+
+.about-cv {
+  margin-bottom: 3em;
+
+  .about-header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-family: aktiv-grotesk-extended, sans-serif;
+      letter-spacing: 8px;
+      width: 100%;
+      //   height: 90px;
+      position: relative;
+      overflow: hidden;
+
+      @media only screen and (max-width: 600px) {
+        letter-spacing: 4px;
+      }
+    }
+  }
+
+  .about-item {
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+.about-link {
+  height: 6em;
+}

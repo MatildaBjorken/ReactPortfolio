@@ -4,15 +4,19 @@ export default function Cursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 })
 
   useEffect(() => {
+
     const addEventListeners = () => {
-      document.addEventListener("mousemove", moveMouse)
+      document.addEventListener("mousemove", mMove)
     }
+
     const removeEventListeners = () => {
-      document.removeEventListener("mousemove", moveMouse)
+      document.removeEventListener("mousemove", mMove)
     }
-    const moveMouse = el => {
+
+    const mMove = el => {
       setPosition({ x: el.clientX, y: el.clientY })
     }
+
     addEventListeners()
     return () => removeEventListeners()
   }, [])

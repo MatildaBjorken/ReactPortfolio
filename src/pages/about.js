@@ -1,171 +1,171 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useRef } from "react"
+import gsap from "gsap"
 import { Link } from "gatsby"
-import Me from "../images/me-new.png"
+import "../components/about.scss"
+import MeImg from "../images/me.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import Aos from "aos"
-import "aos/dist/aos.css"
-
 const SecondPage = () => {
+  let link_1 = useRef(null)
+  let link_2 = useRef(null)
+  let link_3 = useRef(null)
+  let wrapperloader = useRef(null)
+
+  const timeline_loader = gsap.timeline()
+  const timeline_txt = gsap.timeline()
+
   useEffect(() => {
-    Aos.init({ duration: 2000 })
-  }, [])
+    timeline_loader.to(wrapperloader, 1, {
+      top: "-100%",
+      ease: "expo.inOut",
+      delay: 0.1,
+    })
+  })
+
+  useEffect(() => {
+    timeline_txt.staggerFrom(
+      [link_3, link_2, link_1],
+      1.1,
+      {
+        y: 200,
+        ease: "power4.out",
+        delay: 0.3,
+        skewY: 10,
+        stagger: {
+          amount: 0.2,
+        },
+      },
+      0.15
+    )
+  })
+
+  // const vidRef = useRef()
+
+  // useEffect(() => {
+  //   vidRef.current.play()
+  // }, [])
   return (
     <Layout>
       <Seo title="About" />
-      <div className="about">
+      <div class="wrapperloader" ref={el => (wrapperloader = el)}>
+        <div class="loader"></div>
+      </div>
+      <div className="about home">
         <div className="about-img">
-          <img
-            className="about-me"
-            src={Me}
-            alt="illustration of me"
-            data-aos="fade-up"
-          />
-          <p className="about-text" data-aos="fade-up">
-            Hey you! My name is Matilda Björk and Iam a 20 year old frontend
-            developer student @hyperisland
-            <br></br>
-            <br></br>I am a positive, well organised and success driven team
-            player with an eye for detail. Working with creativity to solve
-            problems has always been a huge motivation, and is what drove me to
-            become a frontend developer. I feel confidence in knowing that Ive
-            found what I want to keep evolving and working with.
-            <br></br>
-            <br></br>
-            Therefore, I am keen to gain more experience in the field. For this
-            reason, I am looking for a project or a job to contribute to. In
-            return, I would offer my full commitment, be an optimistic and
-            ambitious addition to your team!
-          </p>
+          {/* <video src={Me} ref={vidRef} muted autoPlay loop /> */}
         </div>
 
-        <div className="about-cv">
-          <div data-aos="fade-up">
-            <h3>Work Experience</h3>
-            <br></br>
+        <div className="about-flex">
+          <div className="about-flex-first">
+            <div className="about-header">
+              <h2 ref={el => (link_1 = el)}>Skills</h2>
+            </div>
             <p>
-              Frontend Developer - Sphinxly
+              JavaScript, React, Node, Git
               <br></br>
-              2021 - Present
+              Photoshop, Illustrator, After effects
               <br></br>
-              <br></br>
-              Graphic designer - Breed
-              <br></br>
-              2022
-              <br></br>
-              <br></br>
-              Web Developer - SANDROCK TOURISM AB
-              <br></br>
-              2021 - 2022
-              <br></br>
-              <br></br>
-              Frontend Developer - Internago
-              <br></br>
-              2021 - 2022
-              <br></br>
-              <br></br>
-              Assistant designer - Gunila Axen Design
-              <br></br>
-              2020
-              <br></br>
-              <br></br>
-              Assistant educator - Nationalmuseum
-              <br></br>
-              2018 - Present
-            </p>
-          </div>
-
-          <div data-aos="fade-up">
-            <h3>Skills</h3>
-            <br></br>
-            <p>
-              HTML, CSS, JavaScript
-              <br></br> <br></br>
-              React
-              <br></br> <br></br>
-              UX/UI
-              <br></br> <br></br>
-              Photoshop Illustrator, InDesign
-              <br></br> <br></br>
               Figma
-              <br></br> <br></br>
-              Git
-              <br></br> <br></br>
-              Attention to Detail
-              <br></br> <br></br>
+              <br></br>
               Creative thinking
-              <br></br> <br></br>
+              <br></br>
               Teamwork and Collaboration
-              <br></br> <br></br>
+              <br></br>
               Happy and optimistic ;-)
             </p>
           </div>
-
-          <div data-aos="fade-up">
-            <h3>Education</h3>
-            <br></br>
-            <p>
-              HYPER ISLAND
-              <br></br>
-              Frontend Developer
-              <br></br>
-              2020 - 2022
-              <br></br> <br></br>
-              JavaScript Algorithms and Data Structures - FREECODECAMP
-              <br></br>
-              2021
-              <br></br> <br></br>
-              The Complete JavaScript Course - Udemy
-              <br></br>
-              2020 - 2021
-              <br></br> <br></br>
-              KULTURAMA
-              <br></br>
-              Art and Design
-              <br></br>
-              2017 - 2020
-              <br></br> <br></br>
-              Cambridge IGCSE Art and Design
-              <br></br>
-              International qualification
-              <br></br>
-              2017
-            </p>
-          </div>
-
-          <div data-aos="fade-up">
-            <h3>Contact</h3>
-            <br></br>
-            <p className="about-contact" data-aos="fade-up">
+          <div>
+            <div className="about-header">
+              <h2 ref={el => (link_2 = el)}>Contact</h2>
+            </div>
+            <p className="about-contact">
               Sweden, Stockholm
-              <br></br>
               <br></br>
               +46 70 982 98 30
               <br></br>
-              <br></br>
               <a
                 className="about-mail"
-                href="mailto:matilda.bjork@hyperisland.se"
+                href="mailto:matilda.bjork@bannerboy.se"
               >
-                matilda.bjork@hyperisland.se
+                matilda.bjork@bannerboy.se
               </a>
               <br></br>
+              LinkedIn
               <br></br>
-              <a
-                className="about-mail"
-                href="https://github.com/MatildaBjorken"
-              >
-                go to my github!
-              </a>
             </p>
+          </div>
+          <img src={MeImg} />
+        </div>
+
+        <div className="about-cv">
+          <div>
+            <div className="about-header">
+              <h2 ref={el => (link_3 = el)}>Experience</h2>
+            </div>
+            <div>
+              <div className="about-item">
+                <p>
+                  Creative Developer
+                  <br></br>
+                  Bannerboy
+                </p>
+                <p>2022 - Present</p>
+              </div>
+              <div className="about-item">
+                <p>
+                  Frontend Developer
+                  <br></br> Sphinxly
+                </p>
+                <br></br>
+                <p>2021 - 2022</p>
+              </div>
+              <div className="about-item">
+                <p>
+                  Freelance
+                  <br></br>
+                  Developer and designer
+                </p>
+                <p>2021 - 2022</p>
+              </div>
+              <div className="about-item">
+                <p>
+                  Frontend Developer
+                  <br></br>
+                  Hyper Island
+                </p>
+                <p>2020 - 2022</p>
+              </div>
+              <div className="about-item">
+                <p>
+                  Assistant designer
+                  <br></br>
+                  Gunila Axen Design
+                </p>
+                <p>2020</p>
+              </div>
+              <div className="about-item">
+                <p>
+                  Assistant in studios
+                  <br></br> Nationalmuseum
+                </p>
+                <p> 2018 - 2022 </p>
+              </div>
+              <div className="about-item">
+                <p>
+                  Art and Design program
+                  <br></br> Kulturama
+                </p>
+                <p> 2017 - 2020 </p>
+              </div>
+            </div>
+            <p></p>
           </div>
         </div>
 
         <div className="about-link">
-          <Link className="about-back" to="https://www.bjorkmatilda.com/">
-            {" "}
-            Go Back :-)
+          <Link className="about-back" to="/">
+            <h3>Go Back :-)</h3>
           </Link>
         </div>
       </div>
