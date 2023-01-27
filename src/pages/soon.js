@@ -9,22 +9,15 @@ const PageOne = () => {
   return (
     <Layout>
       <Seo title="Soon" />
-      <Soon />
-      <div className="illustrations soon">
-        <div className="illustrations-text ">
+     <div className="bg soon-bg">
+      <div className="illustrations soon container">
+        <div className="illustrations-text row">
           <div>
             <h3>Comming soon!</h3>
           </div>
         </div>
       </div>
-      <footer>
-        <div className="header-center">
-          <div className="next ">
-            <img src={star} />
-            <Link to="/about">About/Contact</Link>
-          </div>
-        </div>
-      </footer>
+      </div>
     </Layout>
   )
 }
