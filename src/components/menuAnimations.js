@@ -14,7 +14,7 @@ export const openMenu = width => {
   .to("body", 0, { css: { overflow: "hidden" } })
 
   .to(".App", 1, {
-      y: width <= 454 ? "60vh" : "60vh" ,
+      y: width <= 454 ? "60vh" : "70vh" ,
       ease: "expo.inOut"
     })
     .to(".hamburger-menu span", 0.6, {
