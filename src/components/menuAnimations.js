@@ -2,7 +2,7 @@ import gsap from "gsap";
 
 let tl = gsap.timeline();
 
-tl.to(".header .logo a", 0.65, { css: { mixBlendMode: "normal", color: "black", y:0 } })
+// tl.to(".header .logo a", 0.65, { css: { mixBlendMode: "normal", color: "black", y:0 } })
   
 export const openMenu = width => {
   tl

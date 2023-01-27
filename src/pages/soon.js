@@ -1,9 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import star from "../images/star.svg"
-import Soon from "../components/subheader"
 
 const PageOne = () => {
   return (

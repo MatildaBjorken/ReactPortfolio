@@ -4,6 +4,9 @@ module.exports = {
     description: `creative developer!`,
     author: `Matilda Björk`,
   },
+  flags: {
+    DEV_SSR: true
+  },
 
   plugins: [
     `gatsby-plugin-sass`,
