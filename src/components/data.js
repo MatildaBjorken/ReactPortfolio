@@ -2,9 +2,9 @@ const photos = [
   "internago-phones",
   "ruth-devices",
   "trequipment-screen-tablet",
-  // 'juristhuset',
   "anrecon-tablets",
   // "hagern-tablets-phones",
+  // 'juristhuset',
   "computers",
 ]
 const imageData = [photos]

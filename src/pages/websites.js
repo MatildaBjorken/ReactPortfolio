@@ -44,7 +44,7 @@ const PageOne = () => {
   return (
     <Layout>
       <Seo title="Websites" />
-      <div className="main-container">
+      <div className="main-container bg">
         <div className="scroll-container" data-scroll-container ref={ref}>
           <div className="content">
             <div className="gallery">
@@ -52,7 +52,7 @@ const PageOne = () => {
 
               <div />
             </div>
-            <Footer />
+            {/* <Footer /> */}
           </div>
           <div className="gallery-helper">Scroll to discover more</div>
         </div>

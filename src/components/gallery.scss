@@ -99,7 +99,10 @@
   background-color: white;
 
   @media only screen and (max-width: 768px) {
-    width: 450vw;
+    width: 500vw;
+  }
+  @media only screen and (max-width: 600px) {
+    width: 600vw;
   }
 }
 .gallery-helper {
@@ -116,6 +119,10 @@
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   font-weight: 500;
+
+  &:first-child {
+    left: 50%;
+  }
 
   letter-spacing: 50px;
   &.fill {
