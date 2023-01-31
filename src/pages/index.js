@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react"
+import React, { useEffect, useState } from "react"
 import IntroOverlay from "../components/introOverlay";
 import Banner from "../components/banner";
 import Cases from "../components/cases";

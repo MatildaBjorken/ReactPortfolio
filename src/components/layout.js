@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react"
 import { openMenu, closeMenu } from "../components/menuAnimations"
-import Header from "./header"
 import Cursor from "./dot"
 import UpArrow from "../components/arrowUp"
 import { useStaticQuery, graphql } from "gatsby"
@@ -11,6 +10,7 @@ import Navigation from "./navigation"
 import "./layout.css"
 import "./landingPage.scss"
 import "./header.scss"
+import "./cases.scss"
 
 
 function debounce(fn, ms) {

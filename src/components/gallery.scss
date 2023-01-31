@@ -1,0 +1,229 @@
+.gallery-item {
+  // margin: 0 3vw;
+  // display: grid;
+  // grid-template-areas: "gallery-image";
+  // grid-template-columns: 10vmax;
+  // grid-template-rows: 15vmax;
+  // will-change: transform;
+  z-index: 1;
+  // margin-top: -200px;
+
+  // height: 100%;
+
+  padding-right: 10em;
+  /* padding-left: 10rem; */
+  width: 55vw;
+  @media only screen and (max-width: 1200px) {
+    width: 65vw;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 95vw;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 115vw;
+  }
+
+  @media only screen and (max-width: 425px) {
+    width: 145vw;
+  }
+  &:nth-child(even) {
+    // margin-top: 200px;
+  }
+
+  .gallery-item-image {
+    // grid-area: gallery-image;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    will-change: transform;
+    clip-path: inset(0% 100% 0% 0%);
+    transition: clip-path 1s cubic-bezier(0.77, 0, 0.175, 1);
+    &.reveal {
+      clip-path: inset(0% 0% 0% 0%);
+      .gallery__item-imginner {
+        transform: scale(1);
+      }
+    }
+  }
+  .gallery__item-imginner {
+    background-size: cover;
+    background-position: center;
+    transform-origin: center left;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    transform: scale(1.1);
+    transition: transform 2s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+}
+
+.main-container {
+  padding-right: 500px;
+  box-sizing: border-box;
+}
+
+.c-fixed_target {
+  position: absolute;
+  top: -100vh;
+  right: 0;
+  left: 0;
+  bottom: -100vh;
+}
+.scroll-container {
+  // margin-right: 500px;
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  grid-template-columns: repeat(50, 2%);
+  grid-template-rows: repeat(50, 2%);
+  width: 250vw;
+  // width: 100%;
+  padding-left: 12vw;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  background-color: white;
+}
+.gallery-helper {
+  position: absolute;
+  bottom: 3%;
+  left: 2%;
+  font-size: 20px;
+}
+.behind-text {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  font-size: 12em;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-weight: 500;
+
+  letter-spacing: 50px;
+  &.fill {
+    color: rgba(0, 0, 0, 0.2);
+  }
+  &.outline {
+    z-index: 2;
+    mix-blend-mode: overlay;
+  }
+}
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+
+  &:hover {
+    transform: scaleX(1.45);
+  }
+
+  &:hover,
+  .has-scroll-scrolling &,
+  .has-scroll-dragging & {
+    opacity: 1;
+  }
+
+  [data-scroll-direction="horizontal"] & {
+    width: 100%;
+    height: 10px;
+    top: auto;
+    bottom: 0;
+    transform: scaleY(1);
+
+    &:hover {
+      transform: scaleY(1.3);
+    }
+  }
+}
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: grab;
+
+  .has-scroll-dragging & {
+    cursor: grabbing;
+  }
+
+  [data-scroll-direction="horizontal"] & {
+    right: auto;
+    bottom: 0;
+  }
+}
+
+html {
+  &.has-scroll-smooth {
+    overflow: hidden;
+  }
+
+  &.has-scroll-dragging {
+    user-select: none;
+  }
+}
+
+body {
+  .has-scroll-smooth & {
+    overflow: hidden;
+  }
+}
+
+[data-scroll-container] {
+  .has-scroll-smooth & {
+    min-height: 100vh;
+  }
+  [data-scroll-direction="horizontal"] & {
+    height: 100vh;
+    display: inline-block;
+    white-space: nowrap;
+  }
+}
+
+[data-scroll-section] {
+  [data-scroll-direction="horizontal"] & {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 100%;
+  }
+}
+
+.gallery-txt p {
+  font-size: 5.5rem;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 4rem;
+    letter-spacing: 40px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 3rem;
+    letter-spacing: 30px;
+  }
+}
+
+.behind-text {
+  grid-area: 11 / 2 / span 20 / span 10;
+}

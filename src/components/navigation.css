@@ -140,10 +140,6 @@ nav .nav-columns .nav-column .nav-links li a {
 }
 
 @media only screen and (max-width: 425px) {
-  nav .nav-columns {
-    padding: 0 16px;
-  }
-
   nav .nav-columns .nav-column .nav-label {
     font-size: 0.875rem;
     margin-bottom: 1.2rem;

@@ -1,8 +1,6 @@
 import React, { useEffect, useRef } from "react"
 import gsap from "gsap"
-import { Link } from "gatsby"
 import "../components/about.scss"
-import MeImg from "../images/me.png"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Experiencenses from '../components/aboutItem'

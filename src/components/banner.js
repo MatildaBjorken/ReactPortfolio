@@ -1,7 +1,4 @@
-
-
 import React from "react"
-
 import RightArrow from "../components/arrowRight"
 
 const Banner = () => {
