@@ -52,7 +52,7 @@ const PageOne = () => {
 
               <div />
             </div>
-            {/* <Footer /> */}
+            <Footer />
           </div>
           <div className="gallery-helper">Scroll to discover more</div>
         </div>

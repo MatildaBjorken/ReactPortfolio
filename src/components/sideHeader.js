@@ -3,16 +3,12 @@ import "./sideHeader.scss"
 
 const addresses = [
   {
-    town: "Amsterdam",
-    address: "IJpromenade 1, 1031 KT Amsterdam, Netherlands",
-    phone: "+312 058 91400",
-    email: "amsterdam@webunlocked.co",
+    town: "internago",
+    address: "Link",
   },
   {
-    town: "London",
-    address: "Westminster, London SW1A 0AA, United Kingdom",
-    phone: "+442 072 468350",
-    email: "london@webunlocked.co",
+    town: "Ruth",
+    address: "Link",
   },
 ]
 export default function Footer() {
@@ -34,8 +30,6 @@ export default function Footer() {
                 <p key={element}>{element}</p>
               ))}
             </div>
-            <p>{info.phone}</p>
-            <p>{info.email}</p>
           </div>
         ))}
       </div>

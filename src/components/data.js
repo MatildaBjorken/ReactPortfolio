@@ -3,8 +3,9 @@ const photos = [
   "ruth-devices",
   "trequipment-screen-tablet",
   // 'juristhuset',
-  // "hagern-tablets-phones",
   "anrecon-tablets",
+  // "hagern-tablets-phones",
+  "computers",
 ]
 const imageData = [photos]
 
@@ -21,7 +22,8 @@ const margins = [
   [12, -3],
   [-9, -9],
   [5, -6],
+  [12, -3],
 ]
 
-const text = [["Internago"], ["Ruth"], ["Trequipment"], ["Anrecon"]]
+const text = [["Internago"], ["Ruth"], ["Trequipment"], ["Anrecon"], ["News"]]
 export { imageData, points, text, margins }
