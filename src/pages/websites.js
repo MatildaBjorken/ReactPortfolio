@@ -22,6 +22,17 @@ const PageOne = () => {
       const scroll = new LocomotiveScroll({
         el: ref.current,
         smooth: true,
+        smoothMobile: true,
+        mobile: {
+          breakpoint: 0,
+          smooth: true,
+          direction: "horizontal",
+        },
+        tablet: {
+          breakpoint: 0,
+          smooth: true,
+          direction: "horizontal",
+        },
         direction: "horizontal",
         multiplier: 0.5,
       })
